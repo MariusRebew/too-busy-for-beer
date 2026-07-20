@@ -39,6 +39,43 @@ def get_json(url, timeout=30):
     return json.loads(fetch(url, timeout))
 
 
+def resolve_url(google_url):
+    """Google-News-Link zur echten Ziel-URL auflösen (offizielle batchexecute-RPC).
+    Klappt es nicht, wird der ursprüngliche (funktionierende) Link zurückgegeben."""
+    if not google_url or "news.google." not in google_url:
+        return google_url
+    try:
+        m = re.search(r'/(?:rss/)?articles/([^?]+)', google_url)
+        if not m:
+            return google_url
+        aid = m.group(1)
+        page = fetch("https://news.google.com/articles/" + aid, timeout=20)
+        sg = re.search(r'data-n-a-sg="([^"]+)"', page)
+        ts = re.search(r'data-n-a-ts="([^"]+)"', page)
+        idm = re.search(r'data-n-a-id="([^"]+)"', page)
+        if not (sg and ts):
+            return google_url
+        bid = idm.group(1) if idm else aid
+        inner = json.dumps(["garturlreq", [["X", "X", ["X", "X"], None, None, 1, 1,
+                            "US:en", None, 1, None, None, None, None, None, 0, 1],
+                            "X", "X", 1, [1, 1, 1], 1, 1, None, 0, 0, None, 0],
+                            bid, int(ts.group(1)), sg.group(1)])
+        freq = json.dumps([[["Fbv4je", inner, None, "generic"]]])
+        data = urllib.parse.urlencode({"f.req": freq}).encode()
+        req = urllib.request.Request(
+            "https://news.google.com/_/DotsSplashUi/data/batchexecute", data=data,
+            headers={**UA, "Content-Type": "application/x-www-form-urlencoded;charset=UTF-8"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            resp = r.read().decode("utf-8", "ignore")
+        seg = resp.split("garturlres")[-1] if "garturlres" in resp else resp
+        m2 = re.search(r'https?://[^\\"]+', seg)
+        if m2 and "news.google." not in m2.group(0):
+            return m2.group(0)
+    except Exception as e:
+        print("  resolve failed:", e)
+    return google_url
+
+
 # ---------------------------------------------------------------- WETTER
 
 def open_meteo_daily(lat, lon, model):
@@ -190,6 +227,10 @@ def algae_status(query, official_url):
             })
     except Exception as e:
         print("  news failed:", e)
+
+    news = news[:6]
+    for n in news:                      # echte Ziel-URLs auflösen (mit Fallback)
+        n["link"] = resolve_url(n["link"])
 
     joined = " ".join(n["title"].lower() for n in news[:6])
     warn_kw = ["warnt", "warnung", "abgeraten", "abraten", "blaualg", "gestorben",
