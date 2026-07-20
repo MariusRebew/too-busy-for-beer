@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T16:05:48.499112+00:00",
-  "generated_label": "20.07.2026, 16:05",
+  "generated_at": "2026-07-20T17:54:13.140747+00:00",
+  "generated_label": "20.07.2026, 17:54",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -14,16 +14,16 @@
       "lat": 48.95,
       "lon": 11.9,
       "tmax_median": 24.2,
-      "tmax_min": 22.9,
+      "tmax_min": 19.4,
       "tmax_max": 25.7,
       "tmin_median": 15.6,
-      "spread": 2.8,
+      "spread": 6.3,
       "model_count": 3,
       "morning_temp": 20,
       "apparent_noon": 24,
       "rain_prob": 55,
       "gust_max": 51,
-      "wind_max": 24,
+      "wind_max": 17,
       "thunder": false,
       "hourly": [
         {
@@ -79,8 +79,8 @@
       ],
       "ampel": "rot",
       "ampel_why": "Kräftige Böen bis 51 km/h.",
-      "trend_tmax": "down",
-      "prev_tmax": 25.7
+      "trend_tmax": "flat",
+      "prev_tmax": 24.2
     },
     {
       "id": "ziel",
@@ -89,16 +89,16 @@
       "lat": 49.019,
       "lon": 12.097,
       "tmax_median": 25.1,
-      "tmax_min": 23.3,
+      "tmax_min": 19.4,
       "tmax_max": 26.4,
-      "tmin_median": 14.2,
-      "spread": 3.1,
+      "tmin_median": 15.6,
+      "spread": 7.0,
       "model_count": 3,
       "morning_temp": 19,
       "apparent_noon": 26,
       "rain_prob": 55,
       "gust_max": 52,
-      "wind_max": 23,
+      "wind_max": 17,
       "thunder": true,
       "hourly": [
         {
@@ -154,8 +154,8 @@
       ],
       "ampel": "rot",
       "ampel_why": "Gewittergefahr – auf dem Wasser gefährlich.",
-      "trend_tmax": "down",
-      "prev_tmax": 26.4
+      "trend_tmax": "flat",
+      "prev_tmax": 25.1
     }
   ],
   "weather_ampel_overall": "rot",
@@ -163,7 +163,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "20.07.2026, 16:05",
+    "last_checked": "20.07.2026, 17:54",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -206,7 +206,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
+    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -219,20 +219,20 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-20T13:13:13.433289+00:00",
+    "generated_at": "2026-07-20T16:05:48.499112+00:00",
     "locations": {
       "start": {
-        "tmax_median": 25.7,
+        "tmax_median": 24.2,
         "rain_prob": 55,
-        "ampel": "gelb"
+        "ampel": "rot"
       },
       "ziel": {
-        "tmax_median": 26.4,
+        "tmax_median": 25.1,
         "rain_prob": 55,
-        "ampel": "gelb"
+        "ampel": "rot"
       }
     },
     "algae_ampel": "rot",
-    "weather_ampel": "gelb"
+    "weather_ampel": "rot"
   }
 }
