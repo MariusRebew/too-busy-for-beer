@@ -1,0 +1,45 @@
+name: Boots-Wächter Update
+
+# Läuft automatisch 3x täglich (07:10 / 13:10 / 19:10 deutscher Zeit)
+# und kann jederzeit manuell über "Run workflow" gestartet werden.
+on:
+  schedule:
+    - cron: "10 5,11,17 * * *"   # UTC -> +2h = MESZ
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+    paths: [ "scripts/**", "config.json", ".github/workflows/**" ]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: bootswaechter-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Daten aktualisieren
+        run: python scripts/update.py
+
+      - name: Änderungen committen
+        run: |
+          git config user.name  "boots-waechter-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data.json history.json
+          if git diff --staged --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Auto-Update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
