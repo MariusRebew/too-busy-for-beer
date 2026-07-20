@@ -1,0 +1,11 @@
+{
+  "title": "Too busy for Beer – Boots-Wächter",
+  "trip_date": "2026-07-26",
+  "trip_start_time": "10:00",
+  "locations": [
+    { "id": "start", "name": "Start: Kapfelberg / Kelheim", "short": "Kapfelberg", "lat": 48.95, "lon": 11.90 },
+    { "id": "ziel", "name": "Ziel: Regensburg", "short": "Regensburg", "lat": 49.019, "lon": 12.097 }
+  ],
+  "algae_news_query": "Donau Blaualgen Kelheim",
+  "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/"
+}
