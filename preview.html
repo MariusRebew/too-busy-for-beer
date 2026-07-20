@@ -129,7 +129,7 @@ function drawMap(){
   L.polyline([start,ziel],{color:'#3d9be0',weight:3,opacity:.6,dashArray:'6 6'}).addTo(map);
   [[start,'Start: Kapfelberg'],[ziel,'Ziel: Regensburg']].forEach(([c,t])=>L.circleMarker(c,{radius:6,color:'#fff',weight:2,fillColor:'#3d9be0',fillOpacity:1}).addTo(map).bindPopup('<b>'+t+'</b>'));
   spots.forEach(s=>{
-    const html='<div class="kbpin"><img src="kinderbier.png"><br><span class="pr" style="color:'+(s.cheap?'#37b24d':'#f0a400')+'">'+(s.cheap?'🏆':'')+s.p+'</span></div>';
+    const html='<div class="kbpin"><img src="kinderbier.png" width="30" style="width:30px!important;height:auto"><br><span class="pr" style="color:'+(s.cheap?'#37b24d':'#f0a400')+'">'+(s.cheap?'🏆':'')+s.p+'</span></div>';
     L.marker(s.c,{icon:L.divIcon({html,className:'',iconSize:[1,1],iconAnchor:[0,0]})}).addTo(map)
       .bindPopup('<b>'+s.n+'</b><br>'+s.o+'<br>🍺 Halbe: <b>'+s.p+'</b>'+(s.cheap?'<br>🏆 günstigste der Fahrt':'')+(s.bonus?'<br><span style=\"color:#888\">'+s.bonus+'</span>':''));
   });
