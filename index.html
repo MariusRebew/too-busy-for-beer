@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Too busy for Beer – Boots-Wächter</title>
+<meta name="description" content="Wetter & Blaualgen-Wächter für unsere Bootstour auf der Donau." />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<style>
+  :root{
+    --bg:#0f1720; --card:#182430; --card2:#1f2e3d; --line:#2a3b4d;
+    --text:#e8eef4; --muted:#93a4b5; --accent:#3d9be0;
+    --gruen:#37b24d; --gelb:#f0a400; --rot:#e03131;
+    --gruen-bg:rgba(55,178,77,.14); --gelb-bg:rgba(240,164,0,.14); --rot-bg:rgba(224,49,49,.14);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:660px;margin:0 auto;padding:16px 14px 48px}
+  header{text-align:center;padding:14px 0 8px}
+  h1{font-size:1.35rem;margin:0 0 2px;letter-spacing:.2px}
+  .sub{color:var(--muted);font-size:.9rem}
+  .count{margin:12px 0 4px;font-size:1.05rem}
+  .count b{font-size:1.7rem;color:var(--accent)}
+  .updated{color:var(--muted);font-size:.78rem;margin-top:4px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:14px;
+    padding:14px 15px;margin:14px 0;box-shadow:0 1px 0 rgba(255,255,255,.02)}
+  .card h2{font-size:1.05rem;margin:0 0 10px;display:flex;align-items:center;gap:8px}
+  .banner{border-radius:14px;padding:16px;margin:14px 0;border:1px solid var(--line)}
+  .banner .big{font-size:1.15rem;font-weight:700;display:flex;align-items:center;gap:10px}
+  .banner .why{color:var(--muted);margin-top:6px;font-size:.92rem}
+  .dot{width:14px;height:14px;border-radius:50%;flex:0 0 auto;display:inline-block}
+  .dot.lg{width:20px;height:20px}
+  .gruen{color:var(--gruen)} .gelb{color:var(--gelb)} .rot{color:var(--rot)}
+  .bg-gruen{background:var(--gruen-bg);border-color:rgba(55,178,77,.4)}
+  .bg-gelb{background:var(--gelb-bg);border-color:rgba(240,164,0,.4)}
+  .bg-rot{background:var(--rot-bg);border-color:rgba(224,49,49,.4)}
+  .d-gruen{background:var(--gruen)} .d-gelb{background:var(--gelb)} .d-rot{background:var(--rot)}
+  #map{height:210px;border-radius:12px;margin:2px 0 14px;border:1px solid var(--line)}
+  .loc{background:var(--card2);border:1px solid var(--line);border-radius:12px;padding:12px 13px;margin:10px 0}
+  .loc-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px}
+  .loc-head .nm{font-weight:650;display:flex;align-items:center;gap:8px}
+  .loc-why{color:var(--muted);font-size:.85rem;margin:-2px 0 8px}
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}
+  .stat{background:rgba(255,255,255,.03);border-radius:9px;padding:8px 10px}
+  .stat .k{color:var(--muted);font-size:.72rem;text-transform:uppercase;letter-spacing:.4px}
+  .stat .v{font-size:1.05rem;font-weight:650;margin-top:1px}
+  .trend{font-size:.8rem;margin-left:6px}
+  table{width:100%;border-collapse:collapse;margin-top:10px;font-size:.86rem}
+  th,td{padding:6px 4px;text-align:center;border-bottom:1px solid var(--line)}
+  th{color:var(--muted);font-weight:600;font-size:.74rem;text-transform:uppercase;letter-spacing:.3px}
+  td:first-child,th:first-child{text-align:left}
+  .rainbar{display:inline-block;min-width:34px}
+  details{margin-top:8px}
+  summary{cursor:pointer;color:var(--accent);font-size:.86rem}
+  .news{list-style:none;padding:0;margin:8px 0 0}
+  .news li{padding:8px 0;border-bottom:1px solid var(--line)}
+  .news li:last-child{border-bottom:none}
+  .news a{color:var(--text);text-decoration:none;font-weight:550}
+  .news a:hover{color:var(--accent)}
+  .news .meta{color:var(--muted);font-size:.75rem;margin-top:2px}
+  .spark{margin-top:10px}
+  .note{color:var(--muted);font-size:.82rem;margin-top:8px}
+  a.btn{display:inline-block;margin-top:8px;color:var(--accent);text-decoration:none;font-size:.86rem}
+  footer{color:var(--muted);font-size:.76rem;text-align:center;margin-top:22px;line-height:1.7}
+  footer a{color:var(--muted)}
+  .reload{display:block;margin:6px auto 0;background:var(--card2);color:var(--text);
+    border:1px solid var(--line);border-radius:8px;padding:6px 14px;font-size:.82rem;cursor:pointer}
+  .err{background:var(--rot-bg);border:1px solid var(--rot);border-radius:10px;padding:12px;margin:12px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>⚓ Too busy for Beer</h1>
+    <div class="sub">Boots-Wächter · Donau-Tour <span id="tripDate">–</span></div>
+    <div class="count" id="countdown">Lädt …</div>
+    <div class="updated" id="updated"></div>
+    <button class="reload" onclick="load(true)">↻ Aktualisieren</button>
+  </header>
+
+  <div id="content"></div>
+
+  <footer>
+    <div id="genfoot"></div>
+    Wetter: Konsens aus mehreren Modellen (Open-Meteo · ICON/GFS/ECMWF).<br>
+    Algen/Bakterien: amtliche Lage Landkreis Kelheim + Nachrichtenlage.<br>
+    Automatischer Check ~3×/Tag. Keine Gewähr – am Tourtag früh nochmal selbst schauen.<br>
+    <span style="opacity:.7">Käpt'n an Bord, Verstand an Land? Lieber umgekehrt. 🫡</span>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+const AMPEL_TXT = {gruen:"Grün", gelb:"Gelb", rot:"Rot"};
+let cfg=null, map=null;
+
+function el(html){const t=document.createElement('template');t.innerHTML=html.trim();return t.content.firstChild;}
+function dotCls(a){return 'd-'+(a||'gelb');}
+function bgCls(a){return 'bg-'+(a||'gelb');}
+function txtCls(a){return (a||'gelb');}
+function trendArrow(t){return t==='up'?'<span class="trend gruen">▲ steigt</span>':t==='down'?'<span class="trend rot">▼ fällt</span>':'<span class="trend" style="color:var(--muted)">→ stabil</span>';}
+
+async function getJSON(path){
+  const r = await fetch(path + (path.includes('?')?'':'?_=') + Date.now(), {cache:'no-store'});
+  if(!r.ok) throw new Error(path+' '+r.status);
+  return r.json();
+}
+
+function updateCountdown(){
+  if(!cfg) return;
+  const start = new Date((cfg.trip_date||'') + 'T' + ((cfg.trip_start_time||'10:00')) + ':00');
+  const now = new Date();
+  const ms = start - now;
+  const box = document.getElementById('countdown');
+  if(isNaN(start)){box.textContent='';return;}
+  if(ms <= 0 && ms > -12*3600*1000){ box.innerHTML = '🚤 <b>Heute geht\'s los!</b>'; return; }
+  if(ms <= 0){ box.innerHTML = 'Tour vorbei – <b>Prost!</b> 🍻'; return; }
+  const d = Math.floor(ms/86400000);
+  const h = Math.floor(ms%86400000/3600000);
+  box.innerHTML = `Noch <b>${d}</b> Tage <b>${h}</b> Std bis zum Ablegen`;
+}
+
+function locCard(l){
+  const range = (l.tmax_min!=null && l.tmax_max!=null && l.model_count>1)
+     ? `<span class="note" style="font-weight:400">(Modelle ${l.tmax_min}–${l.tmax_max}°)</span>` : '';
+  const rows = (l.hourly||[]).map(h=>`<tr>
+      <td>${h.time}</td><td>${h.temp}°</td><td>${h.app}°</td>
+      <td class="rainbar">${h.rain==null?'–':h.rain+'%'}</td>
+      <td>${h.wind}${h.gust?`<span style="color:var(--muted)">/${h.gust}</span>`:''}</td>
+      <td style="font-size:.78rem;color:var(--muted)">${h.desc||''}</td></tr>`).join('');
+  const table = rows ? `<details><summary>Stundenverlauf am Tourtag</summary>
+      <table><thead><tr><th>Zeit</th><th>Temp</th><th>gefühlt</th><th>Regen</th><th>Wind/Böe</th><th>Wetter</th></tr></thead>
+      <tbody>${rows}</tbody></table>
+      <div class="note">„Gefühlt" ist ohne Fahrtwind – auf dem fahrenden Boot nochmal ~2–4° kühler.</div></details>` : '';
+  return `<div class="loc">
+    <div class="loc-head">
+      <span class="nm"><span class="dot ${dotCls(l.ampel)}"></span>${l.short}</span>
+      <span class="${txtCls(l.ampel)}" style="font-weight:700;font-size:.85rem">${AMPEL_TXT[l.ampel]||'?'}</span>
+    </div>
+    <div class="loc-why">${l.ampel_why||''}</div>
+    <div class="grid">
+      <div class="stat"><div class="k">Max heiß</div><div class="v">${l.tmax_median!=null?l.tmax_median+'°':'–'} ${trendArrow(l.trend_tmax)}</div></div>
+      <div class="stat"><div class="k">Morgens (9 Uhr)</div><div class="v">${l.morning_temp!=null?l.morning_temp+'°':'–'}</div></div>
+      <div class="stat"><div class="k">Regen-Wkt.</div><div class="v">${l.rain_prob!=null?l.rain_prob+'%':'–'}</div></div>
+      <div class="stat"><div class="k">Böen</div><div class="v">${l.gust_max!=null?l.gust_max+' km/h':'–'}</div></div>
+    </div>
+    ${range?`<div class="note">${range} · Gewitter: ${l.thunder?'<span class="rot">möglich ⚡</span>':'nicht in Sicht'}</div>`:''}
+    ${table}
+  </div>`;
+}
+
+function sparkline(hist, id, label){
+  const pts = hist.map(h=>h.tmax&&h.tmax[id]).filter(v=>v!=null);
+  if(pts.length<2) return '';
+  const w=280,h=46,pad=4;
+  const mn=Math.min(...pts), mx=Math.max(...pts), span=(mx-mn)||1;
+  const step=(w-2*pad)/(pts.length-1);
+  const d=pts.map((v,i)=>`${i===0?'M':'L'}${(pad+i*step).toFixed(1)},${(h-pad-((v-mn)/span)*(h-2*pad)).toFixed(1)}`).join(' ');
+  return `<div class="spark"><div class="note">${label}: ${pts[0]}° → ${pts[pts.length-1]}°</div>
+    <svg width="100%" viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" style="max-height:46px">
+      <path d="${d}" fill="none" stroke="var(--accent)" stroke-width="2"/></svg></div>`;
+}
+
+function render(d, hist){
+  document.getElementById('tripDate').textContent = d.trip_date_label + (d.trip_start_time?` · ab ${d.trip_start_time} Uhr`:'');
+  document.getElementById('updated').textContent = 'Letzte Aktualisierung: ' + (d.generated_label||'–');
+  document.getElementById('genfoot').textContent = 'Stand: ' + (d.generated_label||'–');
+  updateCountdown();
+
+  const c = document.getElementById('content');
+  const t=d.trip_ampel||'gelb';
+  const tripTxt = t=='gruen' ? 'Sieht gut aus für die Tour.'
+    : t=='rot' ? 'Achtung – aktuell mindestens ein klares Warnsignal.'
+    : 'Machbar, aber mit Vorbehalt – Details checken.';
+  let html = `<div class="banner ${bgCls(t)}">
+      <div class="big"><span class="dot lg ${dotCls(t)}"></span>Gesamt-Einschätzung: <span class="${txtCls(t)}">${AMPEL_TXT[t]}</span></div>
+      <div class="why">${tripTxt} (Schlechtester Wert aus Wetter &amp; Wasser.)</div>
+    </div>`;
+
+  // Wetter
+  const wa=d.weather_ampel_overall||'gelb';
+  html += `<div class="card"><h2><span class="dot ${dotCls(wa)}"></span>Wetter am Tourtag</h2>
+      <div id="map"></div>
+      ${(d.locations||[]).map(locCard).join('')}
+      ${hist?sparkline(hist,(d.locations[1]||d.locations[0]).id,'So bewegt sich die Prognose (max. Temp)'):''}
+    </div>`;
+
+  // Algen
+  const a=d.algae||{}; const aa=a.ampel||'gelb';
+  const news=(a.news||[]).map(n=>`<li><a href="${n.link}" target="_blank" rel="noopener">${n.title}</a>
+      <div class="meta">${n.source||''}${n.date?' · '+n.date.replace(' GMT',''):''}</div></li>`).join('');
+  html += `<div class="card ${bgCls(aa)}"><h2><span class="dot ${dotCls(aa)}"></span>Algen / Bakterien in der Donau</h2>
+      <div class="big" style="font-weight:700"><span class="${txtCls(aa)}">${a.status_label||'–'}</span></div>
+      <div class="why" style="color:var(--muted);margin:6px 0">${a.summary||''}</div>
+      <div class="note">Zuletzt geprüft: ${a.last_checked||'–'}</div>
+      ${news?`<ul class="news">${news}</ul>`:''}
+      ${a.official_url?`<a class="btn" href="${a.official_url}" target="_blank" rel="noopener">→ Amtliche Seite Landkreis Kelheim</a>`:''}
+    </div>`;
+
+  c.innerHTML = html;
+  drawMap(d);
+}
+
+function drawMap(d){
+  if(!d.locations||!d.locations.length) return;
+  const clr={gruen:'#37b24d',gelb:'#f0a400',rot:'#e03131'};
+  try{
+    if(map){map.remove();map=null;}
+    map=L.map('map',{scrollWheelZoom:false,attributionControl:true});
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+      {maxZoom:14,attribution:'© OpenStreetMap'}).addTo(map);
+    const pts=[];
+    d.locations.forEach(l=>{
+      pts.push([l.lat,l.lon]);
+      L.circleMarker([l.lat,l.lon],{radius:11,color:'#fff',weight:2,
+        fillColor:clr[l.ampel]||'#f0a400',fillOpacity:1}).addTo(map)
+        .bindPopup(`<b>${l.short}</b><br>max ${l.tmax_median??'–'}° · Regen ${l.rain_prob??'–'}%`);
+    });
+    if(pts.length>1) L.polyline(pts,{color:'#3d9be0',weight:3,opacity:.7,dashArray:'6 6'}).addTo(map);
+    map.fitBounds(pts,{padding:[34,34]});
+  }catch(e){document.getElementById('map').style.display='none';}
+}
+
+async function load(force){
+  try{
+    if(!cfg) cfg = await getJSON('config.json');
+    const d = await getJSON('data.json');
+    let hist=null; try{hist=await getJSON('history.json');}catch(e){}
+    render(d, hist);
+  }catch(e){
+    document.getElementById('content').innerHTML =
+      `<div class="err">Konnte die Daten (noch) nicht laden.<br><span class="note">${e.message}. `+
+      `Nach dem ersten automatischen Lauf ist alles da – oder ↻ nochmal probieren.</span></div>`;
+  }
+}
+load();
+setInterval(updateCountdown, 60000);
+</script>
+</body>
+</html>
