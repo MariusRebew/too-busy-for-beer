@@ -5,6 +5,9 @@ Holt Multi-Modell-Wetter (Open-Meteo) für die Streckenenden und den aktuellen
 Blaualgen-/Bakterien-Stand (Google-News-RSS + amtliche Quelle) und schreibt
 data.json (aktueller Stand) sowie history.json (Verlauf).
 
+Zusätzlich: Donau-Strömungs-Bonus (Open-Meteo Flood-API) und eine rotierende
+Käpt'n-Flo-Weisheit (3x/Tag wechselnd).
+
 Nur Python-Standardbibliothek – keine Extra-Pakete nötig.
 Ampel-Prinzip: im Zweifel vorsichtig (eher Gelb als Grün).
 """
@@ -27,6 +30,28 @@ WMO = {
     95: "Gewitter", 96: "Gewitter mit Hagel", 99: "schweres Gewitter mit Hagel",
 }
 THUNDER = {95, 96, 99}
+
+# ---- Käpt'n Flos Weisheiten (nur vom Käpt'n freigegebene) -----------------
+SPRUECHE = [
+    "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
+    "Trägt der Käpt'n keine Mütz, hat sein Kommando keinen Nütz.",
+    "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
+    "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
+    "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
+    "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
+    "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
+    "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
+    "Ist der Himmel grau und schwer, schmeckt das Bier gleich doppelt sehr.",
+    "Wer sein Käppi über Bord verliert, hat als Käpt'n ausregiert.",
+    "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
+]
+
+
+def pick_spruch(now):
+    """Wechselt 3x/Tag (07/13/19 Uhr-Slots), deterministisch pro Lauf."""
+    slot = 0 if now.hour < 11 else (1 if now.hour < 17 else 2)
+    idx = (now.toordinal() * 3 + slot) % len(SPRUECHE)
+    return {"text": SPRUECHE[idx], "by": "Käpt'n Flo · Weisheit des Tages"}
 
 
 def fetch(url, timeout=30):
@@ -202,6 +227,53 @@ def weather_ampel(tmax, rain, gust, thunder, spread, has_data):
     return "gelb", "Grenzwertig: " + (", ".join(reasons) if reasons else "Lage unsicher") + "."
 
 
+# ---------------------------------------------------------------- STRÖMUNGS-BONUS
+
+def river_discharge(lat, lon, day):
+    """Donau-Abfluss (m³/s) aus der Open-Meteo Flood-API für den Tourtag.
+    Fällt der Tag raus, wird der erste verfügbare Wert genommen."""
+    q = urllib.parse.urlencode({
+        "latitude": lat, "longitude": lon,
+        "daily": "river_discharge", "forecast_days": 16,
+    })
+    try:
+        d = get_json("https://flood-api.open-meteo.com/v1/flood?" + q)["daily"]
+    except Exception as e:
+        print("  flood failed:", e)
+        return None
+    try:
+        i = d["time"].index(day)
+        v = d["river_discharge"][i]
+        if v is not None:
+            return v
+    except (ValueError, KeyError, IndexError):
+        pass
+    vals = [x for x in d.get("river_discharge", []) if x is not None]
+    return vals[0] if vals else None
+
+
+def build_flow(discharge, distance_km=14):
+    """Echte Abfluss-Zahl -> absurde 'Freibier-Äquivalent'-Rechnung.
+    Zahl echt, Umrechnung bewusst Quatsch. Kalibriert so, dass ~318 m³/s
+    ungefähr 4,1 km/h / 48 Min / 2,7 Halbe ergibt."""
+    if discharge is None:
+        return None
+    q = float(discharge)
+    kmh = round(q / 77.6, 1)
+    minutes = round(q / 6.625)
+    halbe = round(minutes / 17.8, 1)
+    if q >= 200:
+        level, emoji = "hoch", "🟢"
+    elif q >= 100:
+        level, emoji = "mittel", "🟡"
+    else:
+        level, emoji = "niedrig", "🔴"
+    return {
+        "discharge": round(q), "kmh": kmh, "minutes": minutes, "halbe": halbe,
+        "level": level, "level_emoji": emoji, "distance_km": distance_km,
+    }
+
+
 # ---------------------------------------------------------------- ALGEN
 
 def algae_status(query, official_url):
@@ -300,6 +372,14 @@ def main():
     algae = algae_status(cfg["algae_news_query"], cfg["official_url"])
     trip_ampel = worst(weather_ampel_overall, algae["ampel"])
 
+    # Käpt'n-Spruch + Strömungs-Bonus
+    now_local = datetime.now(timezone.utc).astimezone()
+    spruch = pick_spruch(now_local)
+    fp = cfg.get("flow_point", {"lat": 49.019, "lon": 12.097})
+    flow = build_flow(river_discharge(fp["lat"], fp["lon"], trip_day))
+    if flow:
+        print("Flow:", flow["discharge"], "m³/s ->", flow["halbe"], "Halbe")
+
     # Vorheriger Stand -> Trends
     prev = {}
     dpath = os.path.join(ROOT, "data.json")
@@ -343,6 +423,8 @@ def main():
         "weather_ampel_overall": weather_ampel_overall,
         "algae": algae,
         "trip_ampel": trip_ampel,
+        "spruch": spruch,
+        "flow": flow,
         "previous": prev,
     }
 
