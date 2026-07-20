@@ -1,0 +1,209 @@
+{
+  "generated_at": "2026-07-20T09:37:51.715155+00:00",
+  "generated_label": "20.07.2026, 09:37",
+  "title": "Too busy for Beer – Boots-Wächter",
+  "trip_date": "2026-07-26",
+  "trip_date_label": "26.07.2026",
+  "trip_start_time": "10:00",
+  "days_until": 6,
+  "locations": [
+    {
+      "id": "start",
+      "name": "Start: Kapfelberg / Kelheim",
+      "short": "Kapfelberg",
+      "lat": 48.95,
+      "lon": 11.9,
+      "tmax_median": 25.7,
+      "tmax_min": 18.9,
+      "tmax_max": 27.5,
+      "tmin_median": 16.1,
+      "spread": 8.6,
+      "model_count": 3,
+      "morning_temp": 19,
+      "apparent_noon": 26,
+      "rain_prob": 52,
+      "gust_max": 38,
+      "wind_max": 18,
+      "thunder": false,
+      "hourly": [
+        {
+          "time": "09:00",
+          "temp": 19,
+          "app": 19,
+          "rain": 20,
+          "wind": 12,
+          "gust": 28,
+          "code": 2,
+          "desc": "teils bewölkt"
+        },
+        {
+          "time": "12:00",
+          "temp": 25,
+          "app": 26,
+          "rain": 26,
+          "wind": 10,
+          "gust": 29,
+          "code": 2,
+          "desc": "teils bewölkt"
+        },
+        {
+          "time": "15:00",
+          "temp": 28,
+          "app": 27,
+          "rain": 28,
+          "wind": 10,
+          "gust": 26,
+          "code": 3,
+          "desc": "bewölkt"
+        },
+        {
+          "time": "18:00",
+          "temp": 25,
+          "app": 24,
+          "rain": 28,
+          "wind": 10,
+          "gust": 24,
+          "code": 3,
+          "desc": "bewölkt"
+        },
+        {
+          "time": "21:00",
+          "temp": 22,
+          "app": 21,
+          "rain": 25,
+          "wind": 8,
+          "gust": 18,
+          "code": 2,
+          "desc": "teils bewölkt"
+        }
+      ],
+      "ampel": "gelb",
+      "ampel_why": "Grenzwertig: Regenrisiko 52%, Böen bis 38 km/h, Modelle uneinig (±8.6°).",
+      "trend_tmax": "flat",
+      "prev_tmax": null
+    },
+    {
+      "id": "ziel",
+      "name": "Ziel: Regensburg",
+      "short": "Regensburg",
+      "lat": 49.019,
+      "lon": 12.097,
+      "tmax_median": 26.4,
+      "tmax_min": 20.4,
+      "tmax_max": 28.0,
+      "tmin_median": 16.0,
+      "spread": 7.6,
+      "model_count": 3,
+      "morning_temp": 19,
+      "apparent_noon": 25,
+      "rain_prob": 52,
+      "gust_max": 38,
+      "wind_max": 17,
+      "thunder": false,
+      "hourly": [
+        {
+          "time": "09:00",
+          "temp": 19,
+          "app": 19,
+          "rain": 20,
+          "wind": 10,
+          "gust": 23,
+          "code": 2,
+          "desc": "teils bewölkt"
+        },
+        {
+          "time": "12:00",
+          "temp": 25,
+          "app": 25,
+          "rain": 26,
+          "wind": 12,
+          "gust": 28,
+          "code": 2,
+          "desc": "teils bewölkt"
+        },
+        {
+          "time": "15:00",
+          "temp": 28,
+          "app": 28,
+          "rain": 28,
+          "wind": 9,
+          "gust": 27,
+          "code": 2,
+          "desc": "teils bewölkt"
+        },
+        {
+          "time": "18:00",
+          "temp": 25,
+          "app": 24,
+          "rain": 28,
+          "wind": 10,
+          "gust": 28,
+          "code": 3,
+          "desc": "bewölkt"
+        },
+        {
+          "time": "21:00",
+          "temp": 23,
+          "app": 23,
+          "rain": 25,
+          "wind": 8,
+          "gust": 14,
+          "code": 3,
+          "desc": "bewölkt"
+        }
+      ],
+      "ampel": "gelb",
+      "ampel_why": "Grenzwertig: Regenrisiko 52%, Böen bis 38 km/h, Modelle uneinig (±7.6°).",
+      "trend_tmax": "flat",
+      "prev_tmax": null
+    }
+  ],
+  "weather_ampel_overall": "gelb",
+  "algae": {
+    "status_label": "Warnung aktiv",
+    "ampel": "rot",
+    "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
+    "last_checked": "20.07.2026, 09:37",
+    "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
+    "news": [
+      {
+        "title": "Kelheim: Blaualgen-Alarm – Behörde warnt vor Baden in der Donau - SZ.de",
+        "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNNEJJclY0QVIwODNfckZ4VFFGdjVOTkp3MGROazFJTXMwTHVISGZwOVZyc29NTWNhN0hQdXZWbFJkdm5QSk5SZUJlUUZTbWtJdG5xLTRZZEJFQ3BJZGVuUnEyLTM3M09PY241LXJyVU9wbmRSbDRXbGpteXl4NkI4ckp2djg2RENScjQxMF80MmNpT3NiN2w5dQ?oc=5",
+        "date": "Wed, 15 Jul 2026 14:37:14 GMT",
+        "source": "SZ.de"
+      },
+      {
+        "title": "Blaualgen in der Donau festgestellt, aber keine Massen - charivari.com",
+        "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPY3FjX01tVHp0cXF3TWZwYWlQQ0kwWEJTeE5sWEJFZy1tOG5CcnFCTHUtalg5YUFva3duS3dWclVYTE5PRldGV3RoUThuX0s2WE5qNVlSSl9Ia190bHlGVExWdTZ5QlBlU3hGVmgzd2FldS1OZXZoSDFhZ1BTQTBvV3RVbVNmZFlCX3lJNlduYjlWZw?oc=5",
+        "date": "Thu, 16 Jul 2026 15:55:57 GMT",
+        "source": "charivari.com"
+      },
+      {
+        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
+        "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNNnA4QjYzTjhidTZqYUdxUk5ZUnBFVlRlZFVGdlpacDBLSm1qSmxQLVJpTFV5Y19PZHZUcVhfNTh1NU9qWVBfR2NFcUJKdVoxZ05KSzlDWHZMUkRwblNVaTQ5Z2VILXljenFPUmxsRHZpMFdIUlJvbElmOC1paVdqemVlQ016SXJCa0tfVGwxRllNanl3eFlwWFlBc2FqYWdRd0s4aHpXbUlZMFJfcXR6WHdXOA?oc=5",
+        "date": "Sun, 19 Jul 2026 08:30:07 GMT",
+        "source": "Merkur"
+      },
+      {
+        "title": "Blaualgen-Verdacht in Kelheim erhärtet sich: Auch zwei Badende erlitten Symptome - Mittelbayerische Zeitung",
+        "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOZ0IyV0pLUU41LVpXeTRCRVlza3JtUHk2WmJfd2t6MS1kX1JhTEwzQTNqNTNWaUQzRWZvUHdIM3NycmpPbTdIcnR4SzFGVkhQeFRUNVdRMU1RZV9HQ3JZWjU5NzNFTVhjdExpRnBVZ0tzd3prLWZCVjloS2p6T3ZoUWFFSEZrdUktcFY5MXZ3NkoxbFU1ZDl5QU5RNFBBaE9yT1ZCUkp3TTJlWDhsMXBnZmJpYlJfd2owVGxOdGtVVGhrc3o1M09fem5aOFVqZmpfcUZra0VScnZtS0RpendPNA?oc=5",
+        "date": "Wed, 15 Jul 2026 14:00:32 GMT",
+        "source": "Mittelbayerische Zeitung"
+      },
+      {
+        "title": "Aktuellste amtliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
+        "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fejNwV2RhTmlLOGFYa2lYbDhEc2hNQjBNOEZQR21IQ1NnMlpvc0lZQmEwQjBiNFJtYzA0X05XSkpxcDlJV25ucjRLSkJIRXFrSWlXbjJDb1phdDh1cVBUamJITm9jcVZVNzZpd0NjT2MtLWhLbnc?oc=5",
+        "date": "Thu, 16 Jul 2026 16:41:11 GMT",
+        "source": "Pfaffenhofen Today"
+      },
+      {
+        "title": "Landkreis Kelheim: Blaualgen-Gefahr? Gesundheitsamt warnt vor Baden in Donau - tvaktuell.com",
+        "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sSnJ4R0JKdzlLNUtEeUlhZjZkZ3BhdF93Z05oYXRtcVdFaHNoT1ZQU29YU1hwcjVXeW14LVFPLTB5TGFxNGpLMHVXU0M1VDFQeFY1bndQV2x1MGRTRjUyN1dYNHo3MjAzYWE1N256azRiV0pK?oc=5",
+        "date": "Thu, 16 Jul 2026 07:14:02 GMT",
+        "source": "tvaktuell.com"
+      }
+    ]
+  },
+  "trip_ampel": "rot",
+  "previous": {}
+}
