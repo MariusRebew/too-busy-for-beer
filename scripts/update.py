@@ -9,7 +9,7 @@ Nur Python-Standardbibliothek – keine Extra-Pakete nötig.
 Ampel-Prinzip: im Zweifel vorsichtig (eher Gelb als Grün).
 """
 
-import json, os, re, html, statistics, urllib.request, urllib.parse
+import json, os, re, html, statistics, time, urllib.request, urllib.parse, email.utils
 from datetime import datetime, timezone, date
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -228,8 +228,18 @@ def algae_status(query, official_url):
     except Exception as e:
         print("  news failed:", e)
 
+    def _news_dt(n):                     # pubDate -> aware datetime (neueste zuerst)
+        try:
+            dt = email.utils.parsedate_to_datetime(n.get("date", ""))
+            return dt if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
+        except Exception:
+            return datetime.min.replace(tzinfo=timezone.utc)
+    news.sort(key=_news_dt, reverse=True)   # nach Datum, nicht nach Googles Relevanz
+
     news = news[:6]
-    for n in news:                      # echte Ziel-URLs auflösen (mit Fallback)
+    for i, n in enumerate(news):        # echte Ziel-URLs auflösen (mit Fallback)
+        if i:
+            time.sleep(0.7)             # kleine Pause gegen Google-Rate-Limit
         n["link"] = resolve_url(n["link"])
 
     joined = " ".join(n["title"].lower() for n in news[:6])
