@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-20T12:02:57.502162+00:00",
-  "generated_label": "20.07.2026, 12:02",
+  "generated_at": "2026-07-20T13:13:13.433289+00:00",
+  "generated_label": "20.07.2026, 13:13",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -16,15 +16,15 @@
       "tmax_median": 25.7,
       "tmax_min": 22.9,
       "tmax_max": 27.5,
-      "tmin_median": 16.1,
+      "tmin_median": 15.6,
       "spread": 4.6,
       "model_count": 3,
       "morning_temp": 19,
       "apparent_noon": 26,
       "rain_prob": 55,
-      "gust_max": 38,
+      "gust_max": 45,
       "wind_max": 24,
-      "thunder": true,
+      "thunder": false,
       "hourly": [
         {
           "time": "09:00",
@@ -77,8 +77,8 @@
           "desc": "teils bewölkt"
         }
       ],
-      "ampel": "rot",
-      "ampel_why": "Gewittergefahr – auf dem Wasser gefährlich.",
+      "ampel": "gelb",
+      "ampel_why": "Grenzwertig: Regenrisiko 55%, Böen bis 45 km/h.",
       "trend_tmax": "flat",
       "prev_tmax": 25.7
     },
@@ -97,9 +97,9 @@
       "morning_temp": 19,
       "apparent_noon": 25,
       "rain_prob": 55,
-      "gust_max": 38,
+      "gust_max": 45,
       "wind_max": 23,
-      "thunder": true,
+      "thunder": false,
       "hourly": [
         {
           "time": "09:00",
@@ -152,25 +152,25 @@
           "desc": "bewölkt"
         }
       ],
-      "ampel": "rot",
-      "ampel_why": "Gewittergefahr – auf dem Wasser gefährlich.",
+      "ampel": "gelb",
+      "ampel_why": "Grenzwertig: Regenrisiko 55%, Böen bis 45 km/h.",
       "trend_tmax": "flat",
       "prev_tmax": 26.4
     }
   ],
-  "weather_ampel_overall": "rot",
+  "weather_ampel_overall": "gelb",
   "algae": {
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "20.07.2026, 12:02",
+    "last_checked": "20.07.2026, 13:13",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
-        "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
-        "date": "Sun, 19 Jul 2026 08:30:07 GMT",
-        "source": "Merkur"
+        "title": "Hund stirbt nach Bad in der Donau, zwei Menschen erkrankt – wie sieht es an der Isar mit Giftalgen aus? - TZ",
+        "link": "https://www.tz.de/muenchen/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401057.html",
+        "date": "Mon, 20 Jul 2026 12:42:50 GMT",
+        "source": "TZ"
       },
       {
         "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
@@ -206,7 +206,7 @@
   },
   "trip_ampel": "rot",
   "previous": {
-    "generated_at": "2026-07-20T11:42:27.165634+00:00",
+    "generated_at": "2026-07-20T12:02:57.502162+00:00",
     "locations": {
       "start": {
         "tmax_median": 25.7,
