@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Vorschau – Quatsch-Module</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css" />
+<style>
+  :root{--bg:#0f1720;--card:#182430;--card2:#1f2e3d;--line:#2a3b4d;--text:#e8eef4;--muted:#93a4b5;--accent:#3d9be0;
+    --gruen:#37b24d;--gelb:#f0a400;--rot:#e03131;--gelb-bg:rgba(240,164,0,.16);--rot-bg:rgba(224,49,49,.16);--blau-bg:rgba(61,155,224,.14);}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;line-height:1.5}
+  .wrap{max-width:480px;margin:0 auto;min-height:100vh}
+  .banner{background:rgba(240,164,0,.12);border-bottom:1px solid rgba(240,164,0,.4);padding:8px 14px;font-size:.8rem;color:#f0d9a8;text-align:center}
+  .hero{position:relative;height:220px;background-image:url('boot.jpg');background-size:cover;background-position:center 42%}
+  .hero .ov{position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,16,22,.22),rgba(10,16,22,.48) 46%,rgba(15,23,32,.8) 78%,rgba(15,23,32,1))}
+  .hero .cap{position:absolute;left:0;right:0;bottom:0;padding:12px 16px 14px;text-align:center}
+  .hero h1{margin:0;font-size:1.35rem;text-shadow:0 1px 3px rgba(0,0,0,.85)}
+  .hero .sub{color:#e6edf3;font-size:.83rem;text-shadow:0 1px 3px rgba(0,0,0,.9)}
+  .hero .count{margin-top:6px;font-size:.98rem;text-shadow:0 1px 6px #000}
+  .hero .count b{color:#fff;font-size:1.5rem}
+  .body{padding:10px 14px 40px}
+  .spruch{background:linear-gradient(180deg,rgba(240,164,0,.10),transparent);border:1px solid var(--line);border-radius:13px;padding:11px 14px;text-align:center;margin:4px 0 12px}
+  .spruch .q{font-family:Georgia,serif;font-style:italic;font-size:.98rem}
+  .spruch .by{color:var(--muted);font-size:.75rem;margin-top:4px}
+  .tile{border:1px solid var(--line);border-radius:15px;overflow:hidden;background:var(--card);margin:10px 0}
+  .head{display:flex;align-items:center;gap:12px;padding:14px 15px;cursor:pointer;user-select:none}
+  .t-gelb{background:linear-gradient(180deg,var(--gelb-bg),transparent)}
+  .t-rot{background:linear-gradient(180deg,var(--rot-bg),transparent)}
+  .t-blau{background:linear-gradient(180deg,var(--blau-bg),transparent)}
+  .head .big{font-size:1.15rem;font-weight:700}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+  .chip{background:rgba(255,255,255,.07);border-radius:8px;padding:4px 9px;font-size:.78rem;white-space:nowrap}
+  .dot{width:16px;height:16px;border-radius:50%;flex:0 0 auto}
+  .d-gelb{background:var(--gelb)} .d-rot{background:var(--rot)} .d-blau{background:var(--accent)}
+  .txt{flex:1;min-width:0}
+  .chev{color:var(--muted);font-size:1.3rem;transition:transform .2s}
+  .tile.open .chev{transform:rotate(90deg)}
+  .exp{display:none;border-top:1px solid var(--line);padding:13px 15px;background:var(--card2)}
+  .tile.open .exp{display:block}
+  #map{height:250px;border-radius:12px;border:1px solid var(--line)}
+  .rank{list-style:none;padding:0;margin:12px 0 0;font-size:.9rem}
+  .rank li{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--line)}
+  .rank li:last-child{border:none}
+  .rank .p{font-weight:700}
+  .badge{font-size:.68rem;font-weight:700;padding:2px 7px;border-radius:20px;margin-left:5px;background:rgba(55,178,77,.16);color:var(--gruen)}
+  .stat{background:rgba(255,255,255,.04);border-radius:9px;padding:8px 10px;margin-top:10px;font-size:.85rem}
+  .flow-num{font-size:1.7rem;font-weight:700;color:var(--accent)}
+  .note{color:var(--muted);font-size:.8rem;margin-top:9px}
+  footer{color:var(--muted);font-size:.74rem;text-align:center;margin-top:16px;line-height:1.7}
+  .kbpin{transform:translate(-50%,-100%);text-align:center;line-height:1}
+  .kbpin img{width:26px;filter:drop-shadow(0 1px 2px rgba(0,0,0,.75))}
+  .kbpin .pr{display:inline-block;background:#121820;border:1px solid #2a3b4d;border-radius:7px;font:700 10px sans-serif;padding:0 5px;margin-top:-3px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="banner">🔧 VORSCHAU – nicht die echte Seite. Karte zoombar, Tiles auf-/zuklappbar. Echte Seite bleibt unveraendert.</div>
+  <div class="hero"><div class="ov"></div><div class="cap">
+    <h1>⚓ Too busy for Beer</h1>
+    <div class="sub">Boots-Wächter · Donau-Tour 26.07.2026 · ab 10:00 Uhr</div>
+    <div class="count">Noch <b>5</b> Tage <b>18</b> Std bis zum Ablegen</div>
+  </div></div>
+  <div class="body">
+
+    <div class="spruch"><div class="q">„Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund."</div>
+      <div class="by">— Käpt'n Flo · Weisheit des Tages (rotiert live 3×/Tag)</div></div>
+
+    <div class="tile"><div class="head t-rot" onclick="tog(this)">
+      <span class="dot d-rot"></span>
+      <div class="txt"><div class="big">Wetter</div><div class="chips"><span class="chip">26° max</span><span class="chip">morgens 19°</span><span class="chip">Regen 55 %</span><span class="chip">Böen 38</span><span class="chip">⚡ Gewitter</span></div></div>
+      <span class="chev">›</span></div>
+      <div class="exp"><div class="note">(Hier kommt der echte Wetter-Inhalt: Karte + Orts-Kacheln + Stundenverlauf — wie auf der Live-Seite.)</div></div>
+    </div>
+
+    <div class="tile"><div class="head t-rot" onclick="tog(this)">
+      <span class="dot d-rot"></span>
+      <div class="txt"><div class="big">Algen / Bakterien</div><div class="chips"><span class="chip">Warnung aktiv</span><span class="chip">kein Baden</span></div></div>
+      <span class="chev">›</span></div>
+      <div class="exp"><div class="note">(Hier kommt der echte Algen-Inhalt: Status + News-Links — wie auf der Live-Seite.)</div></div>
+    </div>
+
+    <div class="tile" id="bier"><div class="head t-gelb" onclick="tog(this)"><span style="font-size:1.4rem">🍺</span>
+      <div class="txt"><div class="big">Bier-Radar</div><div class="chips"><span class="chip">4 Halte am Wasser</span><span class="chip">günstigste 3,50 €</span></div></div>
+      <span class="chev">›</span></div>
+      <div class="exp">
+        <div id="map"></div>
+        <ul class="rank">
+          <li><span>Gasthaus Zirngibl · Bad Abbach <span class="badge">🏆 Schnäppchen</span></span><span class="p" style="color:var(--gruen)">3,50 €</span></li>
+          <li><span>Gasthof Krieger · Mariaort</span><span class="p">3,90 €</span></li>
+          <li><span>Zunftstüberl · Matting</span><span class="p" style="color:var(--gelb)">4,50 €</span></li>
+          <li><span>Brauereigasthof Berghammer · Oberndorf</span><span class="p" style="color:var(--gelb)">4,50 €</span></li>
+        </ul>
+        <div class="stat">📊 Median-Halbe: <b>4,20 €</b> · Anomalie: Zirngibl 24 % unter Matting = Geheimtipp der Fahrt.</div>
+        <div class="note">Tipp: reinzoomen, dann trennen sich die nah beieinander liegenden Spots (Bad Abbach).</div>
+      </div>
+    </div>
+
+    <div class="tile"><div class="head t-blau" onclick="tog(this)"><span style="font-size:1.4rem">🌊</span>
+      <div class="txt"><div class="big">Strömungs-Bonus</div><div class="chips"><span class="chip">318 m³/s</span><span class="chip">2,7 🍺 geschenkt</span></div></div>
+      <span class="chev">›</span></div>
+      <div class="exp">
+        <div><span class="flow-num">318 m³/s</span> <span class="chip">~4,1 km/h Rückenströmung</span> <span class="chip">🟢 hoch</span></div>
+        <div class="stat" style="margin-top:12px">Auf 14 km Rückweg schiebt euch die Donau <b>~48 Min geschenkt</b> heimwärts. Bei durchschnittlichem Stammtisch-Durst sind das <b>2,7 Halbe</b>, die ihr trinkt statt zu tuckern.<br><b>Freibier-Äquivalent der Strömung: 2,7 🍺.</b></div>
+        <div class="note">Datenquelle: Open-Meteo Flood-API (Donau-Abfluss). Zahl echt, Rechnung 100 % Quatsch.</div>
+      </div>
+    </div>
+
+    <footer><span style="opacity:.7">Käpt'n an Bord, Verstand an Land? Lieber umgekehrt. 🫡</span></footer>
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script>
+let map=null, bounds=null;
+function fit(){ if(map&&bounds) map.fitBounds(bounds,{padding:[26,26]}); }
+function tog(h){const t=h.parentElement;const open=t.classList.toggle('open');
+  if(t.id==='bier'&&open){ if(!map) drawMap(); setTimeout(()=>{map&&map.invalidateSize();fit();},60);} }
+const start=[48.955,11.985], ziel=[49.019,12.098];
+const spots=[
+  {n:"Gasthaus Zirngibl",o:"Bad Abbach",c:[48.930,12.047],p:"3,50 €",cheap:true},
+  {n:"Gasthof Krieger",o:"Mariaort",c:[48.999,12.013],p:"3,90 €"},
+  {n:"Zunftstüberl",o:"Matting",c:[48.983,12.035],p:"4,50 €"},
+  {n:"Brauereigasthof Berghammer",o:"Oberndorf",c:[48.940,12.026],p:"4,50 €",bonus:"Ab Brauerei: 6×0,5 l = 9,50 €"},
+];
+function drawMap(){
+  map=L.map('map',{scrollWheelZoom:false});
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:16,attribution:'© OpenStreetMap'}).addTo(map);
+  L.polyline([start,ziel],{color:'#3d9be0',weight:3,opacity:.6,dashArray:'6 6'}).addTo(map);
+  [[start,'Start: Kapfelberg'],[ziel,'Ziel: Regensburg']].forEach(([c,t])=>L.circleMarker(c,{radius:6,color:'#fff',weight:2,fillColor:'#3d9be0',fillOpacity:1}).addTo(map).bindPopup('<b>'+t+'</b>'));
+  spots.forEach(s=>{
+    const html='<div class="kbpin"><img src="kinderbier.png"><br><span class="pr" style="color:'+(s.cheap?'#37b24d':'#f0a400')+'">'+(s.cheap?'🏆':'')+s.p+'</span></div>';
+    L.marker(s.c,{icon:L.divIcon({html,className:'',iconSize:[1,1],iconAnchor:[0,0]})}).addTo(map)
+      .bindPopup('<b>'+s.n+'</b><br>'+s.o+'<br>🍺 Halbe: <b>'+s.p+'</b>'+(s.cheap?'<br>🏆 günstigste der Fahrt':'')+(s.bonus?'<br><span style=\"color:#888\">'+s.bonus+'</span>':''));
+  });
+  bounds=L.latLngBounds([start,ziel,[48.925,12.06]]);
+}
+document.getElementById('bier').classList.add('open'); drawMap(); setTimeout(()=>{map.invalidateSize();fit();},250);
+</script>
+</body>
+</html>
