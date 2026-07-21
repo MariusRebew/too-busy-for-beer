@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-21T06:06:56.730638+00:00",
-  "generated_label": "21.07.2026, 06:06",
+  "generated_at": "2026-07-21T11:45:20.741427+00:00",
+  "generated_label": "21.07.2026, 11:45",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -14,16 +14,16 @@
       "lat": 48.95,
       "lon": 11.9,
       "tmax_median": 25.3,
-      "tmax_min": 21.7,
-      "tmax_max": 27.6,
-      "tmin_median": 16.6,
-      "spread": 5.9,
+      "tmax_min": 22.4,
+      "tmax_max": 27.0,
+      "tmin_median": 15.6,
+      "spread": 4.6,
       "model_count": 3,
       "morning_temp": 18,
       "apparent_noon": 24,
-      "rain_prob": 34,
+      "rain_prob": 43,
       "gust_max": 45,
-      "wind_max": 18,
+      "wind_max": 17,
       "thunder": false,
       "hourly": [
         {
@@ -78,9 +78,9 @@
         }
       ],
       "ampel": "gelb",
-      "ampel_why": "Grenzwertig: Regenrisiko 34%, Böen bis 45 km/h, Modelle uneinig (±5.9°).",
-      "trend_tmax": "up",
-      "prev_tmax": 24.2
+      "ampel_why": "Grenzwertig: Regenrisiko 43%, Böen bis 45 km/h.",
+      "trend_tmax": "flat",
+      "prev_tmax": 25.3
     },
     {
       "id": "ziel",
@@ -89,16 +89,16 @@
       "lat": 49.019,
       "lon": 12.097,
       "tmax_median": 26.1,
-      "tmax_min": 23.3,
-      "tmax_max": 28.3,
-      "tmin_median": 17.3,
-      "spread": 5.0,
+      "tmax_min": 23.2,
+      "tmax_max": 27.7,
+      "tmin_median": 15.2,
+      "spread": 4.5,
       "model_count": 3,
       "morning_temp": 18,
       "apparent_noon": 24,
-      "rain_prob": 34,
+      "rain_prob": 43,
       "gust_max": 45,
-      "wind_max": 18,
+      "wind_max": 17,
       "thunder": true,
       "hourly": [
         {
@@ -154,8 +154,8 @@
       ],
       "ampel": "rot",
       "ampel_why": "Gewittergefahr – auf dem Wasser gefährlich.",
-      "trend_tmax": "up",
-      "prev_tmax": 25.1
+      "trend_tmax": "flat",
+      "prev_tmax": 26.1
     }
   ],
   "weather_ampel_overall": "rot",
@@ -163,7 +163,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "21.07.2026, 06:06",
+    "last_checked": "21.07.2026, 11:45",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -206,7 +206,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
+    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -219,16 +219,16 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-20T17:54:13.140747+00:00",
+    "generated_at": "2026-07-21T06:06:56.730638+00:00",
     "locations": {
       "start": {
-        "tmax_median": 24.2,
-        "rain_prob": 55,
-        "ampel": "rot"
+        "tmax_median": 25.3,
+        "rain_prob": 34,
+        "ampel": "gelb"
       },
       "ziel": {
-        "tmax_median": 25.1,
-        "rain_prob": 55,
+        "tmax_median": 26.1,
+        "rain_prob": 34,
         "ampel": "rot"
       }
     },
