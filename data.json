@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T11:45:30.038037+00:00",
-  "generated_label": "22.07.2026, 11:45",
+  "generated_at": "2026-07-22T17:39:33.812280+00:00",
+  "generated_label": "22.07.2026, 17:39",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -14,73 +14,73 @@
       "lat": 48.95,
       "lon": 11.9,
       "tmax_median": 27.0,
-      "tmax_min": 24.1,
+      "tmax_min": 23.8,
       "tmax_max": 29.9,
-      "tmin_median": 15.7,
-      "spread": 5.8,
+      "tmin_median": 16.4,
+      "spread": 6.1,
       "model_count": 3,
       "morning_temp": 18,
-      "apparent_noon": 22,
-      "rain_prob": 58,
-      "gust_max": 48,
+      "apparent_noon": 23,
+      "rain_prob": 43,
+      "gust_max": 62,
       "wind_max": 26,
       "thunder": false,
       "hourly": [
         {
           "time": "09:00",
           "temp": 18,
-          "app": 19,
-          "rain": 44,
+          "app": 20,
+          "rain": 36,
           "wind": 5,
-          "gust": 16,
+          "gust": 17,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "12:00",
-          "temp": 21,
-          "app": 22,
-          "rain": 55,
+          "temp": 22,
+          "app": 23,
+          "rain": 38,
           "wind": 8,
-          "gust": 28,
+          "gust": 26,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "15:00",
-          "temp": 24,
-          "app": 25,
-          "rain": 57,
-          "wind": 6,
+          "temp": 23,
+          "app": 24,
+          "rain": 38,
+          "wind": 10,
+          "gust": 35,
+          "code": 2,
+          "desc": "teils bewölkt"
+        },
+        {
+          "time": "18:00",
+          "temp": 20,
+          "app": 21,
+          "rain": 40,
+          "wind": 7,
           "gust": 34,
           "code": 80,
           "desc": "leichte Schauer"
         },
         {
-          "time": "18:00",
-          "temp": 21,
-          "app": 21,
-          "rain": 48,
-          "wind": 8,
-          "gust": 29,
+          "time": "21:00",
+          "temp": 17,
+          "app": 19,
+          "rain": 35,
+          "wind": 1,
+          "gust": 22,
           "code": 61,
           "desc": "leichter Regen"
-        },
-        {
-          "time": "21:00",
-          "temp": 18,
-          "app": 18,
-          "rain": 36,
-          "wind": 5,
-          "gust": 17,
-          "code": 2,
-          "desc": "teils bewölkt"
         }
       ],
-      "ampel": "gelb",
-      "ampel_why": "Grenzwertig: Regenrisiko 58%, Böen bis 48 km/h, Modelle uneinig (±5.8°).",
-      "trend_tmax": "up",
-      "prev_tmax": 22.3
+      "ampel": "rot",
+      "ampel_why": "Kräftige Böen bis 62 km/h.",
+      "trend_tmax": "flat",
+      "prev_tmax": 27.0
     },
     {
       "id": "ziel",
@@ -89,73 +89,73 @@
       "lat": 49.019,
       "lon": 12.097,
       "tmax_median": 27.7,
-      "tmax_min": 24.1,
+      "tmax_min": 24.3,
       "tmax_max": 30.6,
-      "tmin_median": 16.5,
-      "spread": 6.5,
+      "tmin_median": 16.9,
+      "spread": 6.3,
       "model_count": 3,
-      "morning_temp": 18,
-      "apparent_noon": 23,
-      "rain_prob": 64,
-      "gust_max": 48,
+      "morning_temp": 19,
+      "apparent_noon": 24,
+      "rain_prob": 46,
+      "gust_max": 62,
       "wind_max": 27,
-      "thunder": true,
+      "thunder": false,
       "hourly": [
         {
           "time": "09:00",
-          "temp": 18,
-          "app": 19,
-          "rain": 45,
-          "wind": 4,
-          "gust": 13,
+          "temp": 19,
+          "app": 20,
+          "rain": 46,
+          "wind": 5,
+          "gust": 11,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "12:00",
           "temp": 22,
-          "app": 23,
-          "rain": 46,
-          "wind": 8,
+          "app": 24,
+          "rain": 42,
+          "wind": 9,
           "gust": 24,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "15:00",
-          "temp": 23,
+          "temp": 24,
           "app": 25,
-          "rain": 51,
-          "wind": 5,
-          "gust": 23,
-          "code": 95,
-          "desc": "Gewitter"
+          "rain": 37,
+          "wind": 9,
+          "gust": 30,
+          "code": 2,
+          "desc": "teils bewölkt"
         },
         {
           "time": "18:00",
-          "temp": 20,
-          "app": 21,
-          "rain": 62,
-          "wind": 11,
-          "gust": 27,
+          "temp": 22,
+          "app": 23,
+          "rain": 37,
+          "wind": 8,
+          "gust": 30,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "21:00",
-          "temp": 18,
+          "temp": 19,
           "app": 19,
-          "rain": 58,
-          "wind": 8,
-          "gust": 19,
+          "rain": 33,
+          "wind": 10,
+          "gust": 27,
           "code": 3,
           "desc": "bewölkt"
         }
       ],
       "ampel": "rot",
-      "ampel_why": "Gewittergefahr – auf dem Wasser gefährlich.",
-      "trend_tmax": "up",
-      "prev_tmax": 23.8
+      "ampel_why": "Kräftige Böen bis 62 km/h.",
+      "trend_tmax": "flat",
+      "prev_tmax": 27.7
     }
   ],
   "weather_ampel_overall": "rot",
@@ -163,7 +163,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "22.07.2026, 11:45",
+    "last_checked": "22.07.2026, 17:39",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -206,11 +206,11 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
+    "text": "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 149,
+    "discharge": 148,
     "kmh": 1.9,
     "minutes": 22,
     "halbe": 1.2,
@@ -219,20 +219,20 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-22T06:06:11.457237+00:00",
+    "generated_at": "2026-07-22T11:45:30.038037+00:00",
     "locations": {
       "start": {
-        "tmax_median": 22.3,
-        "rain_prob": 41,
+        "tmax_median": 27.0,
+        "rain_prob": 58,
         "ampel": "gelb"
       },
       "ziel": {
-        "tmax_median": 23.8,
-        "rain_prob": 35,
-        "ampel": "gelb"
+        "tmax_median": 27.7,
+        "rain_prob": 64,
+        "ampel": "rot"
       }
     },
     "algae_ampel": "rot",
-    "weather_ampel": "gelb"
+    "weather_ampel": "rot"
   }
 }
