@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-22T06:06:11.457237+00:00",
-  "generated_label": "22.07.2026, 06:06",
+  "generated_at": "2026-07-22T11:45:30.038037+00:00",
+  "generated_label": "22.07.2026, 11:45",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -13,74 +13,74 @@
       "short": "Kapfelberg",
       "lat": 48.95,
       "lon": 11.9,
-      "tmax_median": 22.3,
-      "tmax_min": 21.2,
-      "tmax_max": 28.7,
-      "tmin_median": 15.1,
-      "spread": 7.5,
+      "tmax_median": 27.0,
+      "tmax_min": 24.1,
+      "tmax_max": 29.9,
+      "tmin_median": 15.7,
+      "spread": 5.8,
       "model_count": 3,
-      "morning_temp": 19,
-      "apparent_noon": 23,
-      "rain_prob": 41,
-      "gust_max": 45,
-      "wind_max": 20,
+      "morning_temp": 18,
+      "apparent_noon": 22,
+      "rain_prob": 58,
+      "gust_max": 48,
+      "wind_max": 26,
       "thunder": false,
       "hourly": [
         {
           "time": "09:00",
-          "temp": 19,
-          "app": 20,
-          "rain": 21,
-          "wind": 8,
-          "gust": 27,
+          "temp": 18,
+          "app": 19,
+          "rain": 44,
+          "wind": 5,
+          "gust": 16,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "12:00",
-          "temp": 22,
-          "app": 23,
-          "rain": 32,
-          "wind": 10,
-          "gust": 35,
+          "temp": 21,
+          "app": 22,
+          "rain": 55,
+          "wind": 8,
+          "gust": 28,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "15:00",
-          "temp": 22,
-          "app": 20,
-          "rain": 40,
-          "wind": 13,
-          "gust": 41,
-          "code": 3,
-          "desc": "bewölkt"
+          "temp": 24,
+          "app": 25,
+          "rain": 57,
+          "wind": 6,
+          "gust": 34,
+          "code": 80,
+          "desc": "leichte Schauer"
         },
         {
           "time": "18:00",
           "temp": 21,
           "app": 21,
-          "rain": 41,
-          "wind": 9,
-          "gust": 32,
-          "code": 3,
-          "desc": "bewölkt"
+          "rain": 48,
+          "wind": 8,
+          "gust": 29,
+          "code": 61,
+          "desc": "leichter Regen"
         },
         {
           "time": "21:00",
-          "temp": 17,
+          "temp": 18,
           "app": 18,
-          "rain": 38,
+          "rain": 36,
           "wind": 5,
-          "gust": 15,
-          "code": 3,
-          "desc": "bewölkt"
+          "gust": 17,
+          "code": 2,
+          "desc": "teils bewölkt"
         }
       ],
       "ampel": "gelb",
-      "ampel_why": "Grenzwertig: Regenrisiko 41%, Böen bis 45 km/h, Modelle uneinig (±7.5°).",
-      "trend_tmax": "down",
-      "prev_tmax": 23.8
+      "ampel_why": "Grenzwertig: Regenrisiko 58%, Böen bis 48 km/h, Modelle uneinig (±5.8°).",
+      "trend_tmax": "up",
+      "prev_tmax": 22.3
     },
     {
       "id": "ziel",
@@ -88,56 +88,56 @@
       "short": "Regensburg",
       "lat": 49.019,
       "lon": 12.097,
-      "tmax_median": 23.8,
-      "tmax_min": 23.0,
-      "tmax_max": 29.4,
-      "tmin_median": 16.8,
-      "spread": 6.4,
+      "tmax_median": 27.7,
+      "tmax_min": 24.1,
+      "tmax_max": 30.6,
+      "tmin_median": 16.5,
+      "spread": 6.5,
       "model_count": 3,
-      "morning_temp": 20,
-      "apparent_noon": 24,
-      "rain_prob": 35,
-      "gust_max": 45,
-      "wind_max": 21,
-      "thunder": false,
+      "morning_temp": 18,
+      "apparent_noon": 23,
+      "rain_prob": 64,
+      "gust_max": 48,
+      "wind_max": 27,
+      "thunder": true,
       "hourly": [
         {
           "time": "09:00",
-          "temp": 20,
-          "app": 20,
-          "rain": 20,
-          "wind": 10,
-          "gust": 28,
+          "temp": 18,
+          "app": 19,
+          "rain": 45,
+          "wind": 4,
+          "gust": 13,
           "code": 3,
           "desc": "bewölkt"
         },
         {
           "time": "12:00",
-          "temp": 23,
-          "app": 24,
-          "rain": 25,
-          "wind": 8,
-          "gust": 32,
-          "code": 80,
-          "desc": "leichte Schauer"
-        },
-        {
-          "time": "15:00",
           "temp": 22,
-          "app": 22,
-          "rain": 30,
-          "wind": 12,
-          "gust": 34,
+          "app": 23,
+          "rain": 46,
+          "wind": 8,
+          "gust": 24,
           "code": 3,
           "desc": "bewölkt"
         },
         {
+          "time": "15:00",
+          "temp": 23,
+          "app": 25,
+          "rain": 51,
+          "wind": 5,
+          "gust": 23,
+          "code": 95,
+          "desc": "Gewitter"
+        },
+        {
           "time": "18:00",
-          "temp": 22,
-          "app": 22,
-          "rain": 34,
-          "wind": 8,
-          "gust": 30,
+          "temp": 20,
+          "app": 21,
+          "rain": 62,
+          "wind": 11,
+          "gust": 27,
           "code": 3,
           "desc": "bewölkt"
         },
@@ -145,25 +145,25 @@
           "time": "21:00",
           "temp": 18,
           "app": 19,
-          "rain": 34,
-          "wind": 6,
-          "gust": 21,
-          "code": 61,
-          "desc": "leichter Regen"
+          "rain": 58,
+          "wind": 8,
+          "gust": 19,
+          "code": 3,
+          "desc": "bewölkt"
         }
       ],
-      "ampel": "gelb",
-      "ampel_why": "Grenzwertig: Regenrisiko 35%, Böen bis 45 km/h, Modelle uneinig (±6.4°).",
-      "trend_tmax": "down",
-      "prev_tmax": 25.7
+      "ampel": "rot",
+      "ampel_why": "Gewittergefahr – auf dem Wasser gefährlich.",
+      "trend_tmax": "up",
+      "prev_tmax": 23.8
     }
   ],
-  "weather_ampel_overall": "gelb",
+  "weather_ampel_overall": "rot",
   "algae": {
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "22.07.2026, 06:06",
+    "last_checked": "22.07.2026, 11:45",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -206,7 +206,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer sein Käppi über Bord verliert, hat als Käpt'n ausregiert.",
+    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -219,20 +219,20 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-21T17:40:52.921287+00:00",
+    "generated_at": "2026-07-22T06:06:11.457237+00:00",
     "locations": {
       "start": {
-        "tmax_median": 23.8,
-        "rain_prob": 44,
-        "ampel": "rot"
+        "tmax_median": 22.3,
+        "rain_prob": 41,
+        "ampel": "gelb"
       },
       "ziel": {
-        "tmax_median": 25.7,
-        "rain_prob": 44,
+        "tmax_median": 23.8,
+        "rain_prob": 35,
         "ampel": "gelb"
       }
     },
     "algae_ampel": "rot",
-    "weather_ampel": "rot"
+    "weather_ampel": "gelb"
   }
 }
