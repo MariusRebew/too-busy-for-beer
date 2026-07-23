@@ -166,5 +166,19 @@
     },
     "weather_ampel": "rot",
     "algae_ampel": "rot"
+  },
+  {
+    "ts": "2026-07-23T06:08:56.909352+00:00",
+    "label": "23.07.2026, 06:08",
+    "tmax": {
+      "start": 29.3,
+      "ziel": 29.8
+    },
+    "rain": {
+      "start": 47,
+      "ziel": 46
+    },
+    "weather_ampel": "rot",
+    "algae_ampel": "rot"
   }
 ]
