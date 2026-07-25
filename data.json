@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-25T06:02:09.038565+00:00",
-  "generated_label": "25.07.2026, 06:02",
+  "generated_at": "2026-07-25T10:20:30.776991+00:00",
+  "generated_label": "25.07.2026, 10:20",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -13,74 +13,74 @@
       "short": "Kapfelberg",
       "lat": 48.95,
       "lon": 11.9,
-      "tmax_median": 28.8,
+      "tmax_median": 28.5,
       "tmax_min": 26.2,
-      "tmax_max": 29.9,
-      "tmin_median": 16.7,
-      "spread": 3.7,
+      "tmax_max": 29.6,
+      "tmin_median": 16.0,
+      "spread": 3.4,
       "model_count": 3,
-      "morning_temp": 22,
+      "morning_temp": 20,
       "apparent_noon": 26,
       "rain_prob": 18,
-      "gust_max": 53,
+      "gust_max": 55,
       "wind_max": 27,
       "thunder": false,
       "hourly": [
         {
           "time": "09:00",
-          "temp": 22,
-          "app": 23,
+          "temp": 20,
+          "app": 20,
           "rain": 0,
-          "wind": 6,
-          "gust": 16,
-          "code": 1,
-          "desc": "überwiegend klar"
+          "wind": 7,
+          "gust": 17,
+          "code": 3,
+          "desc": "bewölkt"
         },
         {
           "time": "12:00",
-          "temp": 28,
+          "temp": 26,
           "app": 26,
           "rain": 0,
-          "wind": 12,
-          "gust": 27,
-          "code": 2,
-          "desc": "teils bewölkt"
+          "wind": 9,
+          "gust": 22,
+          "code": 3,
+          "desc": "bewölkt"
         },
         {
           "time": "15:00",
           "temp": 28,
           "app": 26,
           "rain": 3,
-          "wind": 12,
-          "gust": 35,
-          "code": 2,
-          "desc": "teils bewölkt"
-        },
-        {
-          "time": "18:00",
-          "temp": 28,
-          "app": 25,
-          "rain": 0,
           "wind": 14,
           "gust": 37,
           "code": 2,
           "desc": "teils bewölkt"
         },
         {
-          "time": "21:00",
-          "temp": 23,
-          "app": 22,
-          "rain": 8,
-          "wind": 7,
-          "gust": 30,
+          "time": "18:00",
+          "temp": 28,
+          "app": 26,
+          "rain": 0,
+          "wind": 12,
+          "gust": 36,
           "code": 2,
           "desc": "teils bewölkt"
+        },
+        {
+          "time": "21:00",
+          "temp": 24,
+          "app": 22,
+          "rain": 3,
+          "wind": 8,
+          "gust": 28,
+          "code": 3,
+          "desc": "bewölkt"
         }
       ],
-      "ampel": "rot",
-      "ampel_why": "Kräftige Böen bis 53 km/h.",
+      "ampel": "gelb",
+      "ampel_why": "Grenzwertig: böig bis 55 km/h.",
       "trend_tmax": "flat",
-      "prev_tmax": 29.2
+      "prev_tmax": 28.8
     },
     {
       "id": "ziel",
@@ -90,14 +90,14 @@
       "lon": 12.097,
       "tmax_median": 29.7,
       "tmax_min": 27.0,
-      "tmax_max": 30.6,
-      "tmin_median": 16.0,
-      "spread": 3.6,
+      "tmax_max": 30.3,
+      "tmin_median": 16.7,
+      "spread": 3.3,
       "model_count": 3,
       "morning_temp": 20,
-      "apparent_noon": 28,
+      "apparent_noon": 27,
       "rain_prob": 18,
-      "gust_max": 53,
+      "gust_max": 55,
       "wind_max": 25,
       "thunder": false,
       "hourly": [
@@ -106,64 +106,64 @@
           "temp": 20,
           "app": 20,
           "rain": 0,
-          "wind": 8,
-          "gust": 19,
-          "code": 0,
-          "desc": "klar"
+          "wind": 7,
+          "gust": 16,
+          "code": 3,
+          "desc": "bewölkt"
         },
         {
           "time": "12:00",
-          "temp": 29,
-          "app": 28,
+          "temp": 26,
+          "app": 27,
           "rain": 0,
-          "wind": 10,
-          "gust": 24,
-          "code": 2,
-          "desc": "teils bewölkt"
+          "wind": 5,
+          "gust": 14,
+          "code": 3,
+          "desc": "bewölkt"
         },
         {
           "time": "15:00",
-          "temp": 29,
-          "app": 26,
+          "temp": 30,
+          "app": 28,
           "rain": 0,
-          "wind": 17,
-          "gust": 38,
-          "code": 2,
-          "desc": "teils bewölkt"
+          "wind": 12,
+          "gust": 32,
+          "code": 3,
+          "desc": "bewölkt"
         },
         {
           "time": "18:00",
           "temp": 30,
           "app": 26,
           "rain": 0,
-          "wind": 13,
-          "gust": 44,
+          "wind": 16,
+          "gust": 41,
           "code": 2,
           "desc": "teils bewölkt"
         },
         {
           "time": "21:00",
           "temp": 26,
-          "app": 24,
-          "rain": 3,
-          "wind": 9,
-          "gust": 28,
-          "code": 2,
-          "desc": "teils bewölkt"
+          "app": 23,
+          "rain": 0,
+          "wind": 10,
+          "gust": 31,
+          "code": 3,
+          "desc": "bewölkt"
         }
       ],
-      "ampel": "rot",
-      "ampel_why": "Kräftige Böen bis 53 km/h.",
+      "ampel": "gelb",
+      "ampel_why": "Grenzwertig: böig bis 55 km/h.",
       "trend_tmax": "flat",
-      "prev_tmax": 30.0
+      "prev_tmax": 29.7
     }
   ],
-  "weather_ampel_overall": "rot",
+  "weather_ampel_overall": "gelb",
   "algae": {
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "25.07.2026, 06:02",
+    "last_checked": "25.07.2026, 10:20",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -185,6 +185,12 @@
         "source": "Radio Euroherz"
       },
       {
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
+        "date": "Thu, 23 Jul 2026 12:51:01 GMT",
+        "source": "Mittelbayerische Zeitung"
+      },
+      {
         "title": "Kelheim: Keine erhöhte Blaualgen-Gefahr in der Donau festgestellt - tvaktuell.com",
         "link": "https://www.tvaktuell.com/amp/kelheim-keine-erhoehte-blaualgen-gefahr-in-der-donau-festgestellt-724682/",
         "date": "Thu, 23 Jul 2026 12:33:00 GMT",
@@ -195,16 +201,10 @@
         "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
         "date": "Thu, 23 Jul 2026 12:25:15 GMT",
         "source": "charivari.com"
-      },
-      {
-        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
-        "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
-        "date": "Sun, 19 Jul 2026 07:12:57 GMT",
-        "source": "Augsburger Allgemeine"
       }
     ]
   },
-  "trip_ampel": "rot",
+  "trip_ampel": "gelb",
   "spruch": {
     "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
@@ -219,16 +219,16 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-24T17:43:43.039117+00:00",
+    "generated_at": "2026-07-25T06:02:09.038565+00:00",
     "locations": {
       "start": {
-        "tmax_median": 29.2,
-        "rain_prob": 26,
+        "tmax_median": 28.8,
+        "rain_prob": 18,
         "ampel": "rot"
       },
       "ziel": {
-        "tmax_median": 30.0,
-        "rain_prob": 26,
+        "tmax_median": 29.7,
+        "rain_prob": 18,
         "ampel": "rot"
       }
     },
