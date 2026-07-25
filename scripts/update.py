@@ -182,7 +182,7 @@ def build_location(loc, trip_day):
     codes_thunder = thunder or any(c in THUNDER for c in codes)
 
     ampel, why = weather_ampel(tmax_med, rain_max, gust_max, codes_thunder, spread,
-                               has_data=bool(tmax))
+                               has_data=bool(tmax), wind=wind_max)
 
     return {
         "id": loc["id"], "name": loc["name"], "short": loc.get("short", loc["name"]),
@@ -198,33 +198,39 @@ def build_location(loc, trip_day):
     }
 
 
-def weather_ampel(tmax, rain, gust, thunder, spread, has_data):
+def weather_ampel(tmax, rain, gust, thunder, spread, has_data, wind=None):
+    # Fluss-Logik: Dauerwind (Beaufort) ist das Hauptmaß fürs Steuern,
+    # Böen zählen nur als Zusatz-Warnung.
     if not has_data or tmax is None:
         return "gelb", "Keine gesicherten Daten – im Zweifel vorsichtig."
-    # ROT
+    # ROT – echte Ausschlusskriterien
     if thunder:
         return "rot", "Gewittergefahr – auf dem Wasser gefährlich."
     if rain is not None and rain >= 70:
         return "rot", f"Hohe Regenwahrscheinlichkeit ({rain}%)."
-    if gust is not None and gust >= 50:
-        return "rot", f"Kräftige Böen bis {gust} km/h."
+    if wind is not None and wind >= 39:
+        return "rot", f"Starker Dauerwind {wind} km/h (6 Bft) – auf dem Fluss riskant."
+    if gust is not None and gust >= 60:
+        return "rot", f"Sturmböen bis {gust} km/h."
     if tmax < 15:
         return "rot", f"Zu kalt (max {tmax}°C)."
-    # GRÜN nur wenn alles passt und Modelle einig
-    if (rain is not None and rain < 30 and gust is not None and gust < 35
-            and tmax >= 22 and spread <= 5):
-        return "gruen", f"Passt: ~{round(tmax)}°C, wenig Regen, mäßiger Wind."
-    # sonst GELB
+    # GELB – Grenzwertiges sammeln
     reasons = []
     if rain is not None and rain >= 30:
         reasons.append(f"Regenrisiko {rain}%")
-    if gust is not None and gust >= 35:
-        reasons.append(f"Böen bis {gust} km/h")
+    if wind is not None and wind >= 29:
+        reasons.append(f"Dauerwind {wind} km/h (5 Bft)")
+    if gust is not None and gust >= 55:
+        reasons.append(f"böig bis {gust} km/h")
     if tmax < 22:
         reasons.append(f"nur ~{round(tmax)}°C")
     if spread > 5:
         reasons.append(f"Modelle uneinig (±{spread}°)")
-    return "gelb", "Grenzwertig: " + (", ".join(reasons) if reasons else "Lage unsicher") + "."
+    if reasons:
+        return "gelb", "Grenzwertig: " + ", ".join(reasons) + "."
+    # GRÜN
+    windtxt = f"{wind} km/h" if wind is not None else "moderat"
+    return "gruen", f"Passt: ~{round(tmax)}°C, Wind {windtxt}, wenig Regen."
 
 
 # ---------------------------------------------------------------- STRÖMUNGS-BONUS
