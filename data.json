@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-26T11:37:22.068287+00:00",
-  "generated_label": "26.07.2026, 11:37",
+  "generated_at": "2026-07-26T17:31:56.736305+00:00",
+  "generated_label": "26.07.2026, 17:31",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -13,16 +13,16 @@
       "short": "Kapfelberg",
       "lat": 48.95,
       "lon": 11.9,
-      "tmax_median": 28.9,
+      "tmax_median": 28.6,
       "tmax_min": 28.5,
-      "tmax_max": 29.3,
+      "tmax_max": 28.6,
       "tmin_median": 15.0,
-      "spread": 0.8,
+      "spread": 0.1,
       "model_count": 3,
       "morning_temp": 20,
       "apparent_noon": 25,
-      "rain_prob": 6,
-      "gust_max": 46,
+      "rain_prob": 12,
+      "gust_max": 43,
       "wind_max": 24,
       "thunder": false,
       "hourly": [
@@ -48,20 +48,20 @@
         },
         {
           "time": "15:00",
-          "temp": 29,
-          "app": 27,
+          "temp": 28,
+          "app": 26,
           "rain": 0,
           "wind": 16,
-          "gust": 42,
-          "code": 1,
-          "desc": "überwiegend klar"
+          "gust": 40,
+          "code": 2,
+          "desc": "teils bewölkt"
         },
         {
           "time": "18:00",
           "temp": 28,
           "app": 26,
           "rain": 0,
-          "wind": 13,
+          "wind": 9,
           "gust": 31,
           "code": 3,
           "desc": "bewölkt"
@@ -69,10 +69,10 @@
         {
           "time": "21:00",
           "temp": 23,
-          "app": 23,
+          "app": 21,
           "rain": 0,
-          "wind": 5,
-          "gust": 13,
+          "wind": 7,
+          "gust": 19,
           "code": 2,
           "desc": "teils bewölkt"
         }
@@ -80,7 +80,7 @@
       "ampel": "gruen",
       "ampel_why": "Passt: ~29°C, Wind 24 km/h, wenig Regen.",
       "trend_tmax": "flat",
-      "prev_tmax": 28.7
+      "prev_tmax": 28.9
     },
     {
       "id": "ziel",
@@ -88,16 +88,16 @@
       "short": "Regensburg",
       "lat": 49.019,
       "lon": 12.097,
-      "tmax_median": 29.8,
-      "tmax_min": 29.6,
-      "tmax_max": 30.0,
+      "tmax_median": 29.7,
+      "tmax_min": 29.3,
+      "tmax_max": 29.8,
       "tmin_median": 15.7,
-      "spread": 0.4,
+      "spread": 0.5,
       "model_count": 3,
       "morning_temp": 18,
       "apparent_noon": 25,
-      "rain_prob": 6,
-      "gust_max": 46,
+      "rain_prob": 12,
+      "gust_max": 43,
       "wind_max": 22,
       "thunder": false,
       "hourly": [
@@ -126,8 +126,8 @@
           "temp": 30,
           "app": 28,
           "rain": 0,
-          "wind": 20,
-          "gust": 44,
+          "wind": 17,
+          "gust": 36,
           "code": 2,
           "desc": "teils bewölkt"
         },
@@ -135,11 +135,11 @@
           "time": "18:00",
           "temp": 29,
           "app": 27,
-          "rain": 0,
-          "wind": 13,
-          "gust": 36,
-          "code": 3,
-          "desc": "bewölkt"
+          "rain": 5,
+          "wind": 16,
+          "gust": 38,
+          "code": 2,
+          "desc": "teils bewölkt"
         },
         {
           "time": "21:00",
@@ -147,15 +147,15 @@
           "app": 25,
           "rain": 0,
           "wind": 6,
-          "gust": 16,
-          "code": 3,
-          "desc": "bewölkt"
+          "gust": 19,
+          "code": 1,
+          "desc": "überwiegend klar"
         }
       ],
       "ampel": "gruen",
       "ampel_why": "Passt: ~30°C, Wind 22 km/h, wenig Regen.",
       "trend_tmax": "flat",
-      "prev_tmax": 29.7
+      "prev_tmax": 29.8
     }
   ],
   "weather_ampel_overall": "gruen",
@@ -163,7 +163,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "26.07.2026, 11:37",
+    "last_checked": "26.07.2026, 17:31",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -179,10 +179,10 @@
         "source": "Nordbayerischer Kurier"
       },
       {
-        "title": "Keine Blaualgen in Donau nach neuen Tests festgestellt - radioeins.com",
-        "link": "https://www.radioeins.com/amp/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt-1950744/",
-        "date": "Thu, 23 Jul 2026 13:36:00 GMT",
-        "source": "radioeins.com"
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
+        "date": "Thu, 23 Jul 2026 12:51:01 GMT",
+        "source": "Mittelbayerische Zeitung"
       },
       {
         "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
@@ -206,7 +206,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
+    "text": "Trägt der Käpt'n keine Mütz, hat sein Kommando keinen Nütz.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -219,20 +219,20 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-26T06:12:39.638983+00:00",
+    "generated_at": "2026-07-26T11:37:22.068287+00:00",
     "locations": {
       "start": {
-        "tmax_median": 28.7,
+        "tmax_median": 28.9,
         "rain_prob": 6,
         "ampel": "gruen"
       },
       "ziel": {
-        "tmax_median": 29.7,
+        "tmax_median": 29.8,
         "rain_prob": 6,
         "ampel": "gruen"
       }
     },
-    "algae_ampel": "gelb",
+    "algae_ampel": "rot",
     "weather_ampel": "gruen"
   }
 }
