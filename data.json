@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-25T17:30:03.121812+00:00",
-  "generated_label": "25.07.2026, 17:30",
+  "generated_at": "2026-07-26T06:12:39.638983+00:00",
+  "generated_label": "26.07.2026, 06:12",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": 1,
+  "days_until": 0,
   "locations": [
     {
       "id": "start",
@@ -13,92 +13,17 @@
       "short": "Kapfelberg",
       "lat": 48.95,
       "lon": 11.9,
-      "tmax_median": 29.4,
-      "tmax_min": 29.2,
-      "tmax_max": 29.6,
-      "tmin_median": 14.2,
-      "spread": 0.4,
-      "model_count": 3,
-      "morning_temp": 21,
-      "apparent_noon": 27,
-      "rain_prob": 14,
-      "gust_max": 54,
-      "wind_max": 28,
-      "thunder": false,
-      "hourly": [
-        {
-          "time": "09:00",
-          "temp": 21,
-          "app": 21,
-          "rain": 0,
-          "wind": 9,
-          "gust": 23,
-          "code": 2,
-          "desc": "teils bewölkt"
-        },
-        {
-          "time": "12:00",
-          "temp": 28,
-          "app": 27,
-          "rain": 0,
-          "wind": 11,
-          "gust": 28,
-          "code": 2,
-          "desc": "teils bewölkt"
-        },
-        {
-          "time": "15:00",
-          "temp": 29,
-          "app": 26,
-          "rain": 3,
-          "wind": 16,
-          "gust": 41,
-          "code": 2,
-          "desc": "teils bewölkt"
-        },
-        {
-          "time": "18:00",
-          "temp": 28,
-          "app": 26,
-          "rain": 0,
-          "wind": 13,
-          "gust": 40,
-          "code": 3,
-          "desc": "bewölkt"
-        },
-        {
-          "time": "21:00",
-          "temp": 24,
-          "app": 21,
-          "rain": 0,
-          "wind": 10,
-          "gust": 21,
-          "code": 2,
-          "desc": "teils bewölkt"
-        }
-      ],
-      "ampel": "gruen",
-      "ampel_why": "Passt: ~29°C, Wind 28 km/h, wenig Regen.",
-      "trend_tmax": "flat",
-      "prev_tmax": 29.6
-    },
-    {
-      "id": "ziel",
-      "name": "Ziel: Regensburg",
-      "short": "Regensburg",
-      "lat": 49.019,
-      "lon": 12.097,
-      "tmax_median": 30.3,
-      "tmax_min": 30.3,
-      "tmax_max": 30.7,
-      "tmin_median": 15.3,
-      "spread": 0.4,
+      "tmax_median": 28.7,
+      "tmax_min": 27.8,
+      "tmax_max": 30.0,
+      "tmin_median": 16.1,
+      "spread": 2.2,
       "model_count": 3,
       "morning_temp": 20,
-      "apparent_noon": 28,
-      "rain_prob": 14,
-      "gust_max": 54,
-      "wind_max": 26,
+      "apparent_noon": 26,
+      "rain_prob": 6,
+      "gust_max": 48,
+      "wind_max": 25,
       "thunder": false,
       "hourly": [
         {
@@ -106,107 +31,145 @@
           "temp": 20,
           "app": 19,
           "rain": 0,
-          "wind": 8,
-          "gust": 20,
+          "wind": 12,
+          "gust": 29,
+          "code": 3,
+          "desc": "bewölkt"
+        },
+        {
+          "time": "12:00",
+          "temp": 27,
+          "app": 26,
+          "rain": 0,
+          "wind": 14,
+          "gust": 33,
+          "code": 1,
+          "desc": "überwiegend klar"
+        },
+        {
+          "time": "15:00",
+          "temp": 29,
+          "app": 26,
+          "rain": 0,
+          "wind": 16,
+          "gust": 39,
+          "code": 2,
+          "desc": "teils bewölkt"
+        },
+        {
+          "time": "18:00",
+          "temp": 28,
+          "app": 26,
+          "rain": 0,
+          "wind": 11,
+          "gust": 32,
+          "code": 3,
+          "desc": "bewölkt"
+        },
+        {
+          "time": "21:00",
+          "temp": 22,
+          "app": 23,
+          "rain": 0,
+          "wind": 6,
+          "gust": 33,
+          "code": 2,
+          "desc": "teils bewölkt"
+        }
+      ],
+      "ampel": "gruen",
+      "ampel_why": "Passt: ~29°C, Wind 25 km/h, wenig Regen.",
+      "trend_tmax": "down",
+      "prev_tmax": 29.4
+    },
+    {
+      "id": "ziel",
+      "name": "Ziel: Regensburg",
+      "short": "Regensburg",
+      "lat": 49.019,
+      "lon": 12.097,
+      "tmax_median": 29.7,
+      "tmax_min": 28.9,
+      "tmax_max": 30.7,
+      "tmin_median": 16.8,
+      "spread": 1.8,
+      "model_count": 3,
+      "morning_temp": 20,
+      "apparent_noon": 27,
+      "rain_prob": 6,
+      "gust_max": 48,
+      "wind_max": 26,
+      "thunder": false,
+      "hourly": [
+        {
+          "time": "09:00",
+          "temp": 20,
+          "app": 20,
+          "rain": 0,
+          "wind": 3,
+          "gust": 12,
           "code": 2,
           "desc": "teils bewölkt"
         },
         {
           "time": "12:00",
           "temp": 28,
-          "app": 28,
+          "app": 27,
           "rain": 0,
-          "wind": 9,
-          "gust": 23,
+          "wind": 12,
+          "gust": 28,
           "code": 1,
           "desc": "überwiegend klar"
         },
         {
           "time": "15:00",
-          "temp": 30,
-          "app": 27,
+          "temp": 29,
+          "app": 28,
           "rain": 0,
-          "wind": 20,
-          "gust": 46,
-          "code": 1,
-          "desc": "überwiegend klar"
-        },
-        {
-          "time": "18:00",
-          "temp": 30,
-          "app": 27,
-          "rain": 0,
-          "wind": 16,
-          "gust": 40,
+          "wind": 15,
+          "gust": 43,
           "code": 2,
           "desc": "teils bewölkt"
         },
         {
-          "time": "21:00",
-          "temp": 27,
-          "app": 23,
+          "time": "18:00",
+          "temp": 29,
+          "app": 27,
           "rain": 0,
-          "wind": 14,
-          "gust": 32,
+          "wind": 15,
+          "gust": 34,
+          "code": 3,
+          "desc": "bewölkt"
+        },
+        {
+          "time": "21:00",
+          "temp": 25,
+          "app": 25,
+          "rain": 0,
+          "wind": 10,
+          "gust": 34,
           "code": 2,
           "desc": "teils bewölkt"
         }
       ],
       "ampel": "gruen",
       "ampel_why": "Passt: ~30°C, Wind 26 km/h, wenig Regen.",
-      "trend_tmax": "flat",
+      "trend_tmax": "down",
       "prev_tmax": 30.3
     }
   ],
   "weather_ampel_overall": "gruen",
   "algae": {
-    "status_label": "Warnung aktiv",
+    "status_label": "Status unklar",
     "ampel": "gelb",
-    "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "25.07.2026, 17:29",
+    "summary": "Keine eindeutigen aktuellen Meldungen gefunden. Im Zweifel kein Baden – amtliche Seite prüfen (Link unten).",
+    "last_checked": "26.07.2026, 06:12",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
-    "news": [
-      {
-        "title": "Neueste behördliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
-        "link": "https://pfaffenhofen-today.de/110257-cyanobakterien-donau-230726",
-        "date": "Thu, 23 Jul 2026 15:21:11 GMT",
-        "source": "Pfaffenhofen Today"
-      },
-      {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - Nordbayerischer Kurier",
-        "link": "https://www.kurier.de/inhalt.gesundheitsamt-gibt-entwarnung-keine-blaualgen-in-donau-nach-neuen-tests-festgestellt.ed4e5efb-6b81-40dd-9003-245ce75e7dd4.html",
-        "date": "Thu, 23 Jul 2026 13:40:48 GMT",
-        "source": "Nordbayerischer Kurier"
-      },
-      {
-        "title": "Keine Blaualgen in Donau nach neuen Tests festgestellt - radioeins.com",
-        "link": "https://www.radioeins.com/amp/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt-1950744/",
-        "date": "Thu, 23 Jul 2026 13:36:00 GMT",
-        "source": "radioeins.com"
-      },
-      {
-        "title": "Kelheim: Keine erhöhte Blaualgen-Gefahr in der Donau festgestellt - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/amp/kelheim-keine-erhoehte-blaualgen-gefahr-in-der-donau-festgestellt-724682/",
-        "date": "Thu, 23 Jul 2026 12:33:00 GMT",
-        "source": "tvaktuell.com"
-      },
-      {
-        "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
-        "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
-        "date": "Thu, 23 Jul 2026 12:25:15 GMT",
-        "source": "charivari.com"
-      },
-      {
-        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
-        "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
-        "date": "Sun, 19 Jul 2026 07:12:57 GMT",
-        "source": "Augsburger Allgemeine"
-      }
-    ]
+    "news": []
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Wer sein Käppi über Bord verliert, hat als Käpt'n ausregiert.",
+    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -219,20 +182,20 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-25T11:36:33.929754+00:00",
+    "generated_at": "2026-07-25T17:30:03.121812+00:00",
     "locations": {
       "start": {
-        "tmax_median": 29.6,
-        "rain_prob": 16,
-        "ampel": "gelb"
+        "tmax_median": 29.4,
+        "rain_prob": 14,
+        "ampel": "gruen"
       },
       "ziel": {
         "tmax_median": 30.3,
-        "rain_prob": 16,
-        "ampel": "gelb"
+        "rain_prob": 14,
+        "ampel": "gruen"
       }
     },
     "algae_ampel": "gelb",
-    "weather_ampel": "gelb"
+    "weather_ampel": "gruen"
   }
 }
