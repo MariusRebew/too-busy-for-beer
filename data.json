@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-30T17:43:14.281775+00:00",
-  "generated_label": "30.07.2026, 17:43",
+  "generated_at": "2026-07-31T06:15:03.944529+00:00",
+  "generated_label": "31.07.2026, 06:15",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -4,
+  "days_until": -5,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "30.07.2026, 17:43",
+    "last_checked": "31.07.2026, 06:14",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -71,16 +71,22 @@
         "source": "Nordbayerischer Kurier"
       },
       {
-        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
+        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - augsburger-allgemeine.de",
         "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
         "date": "Sun, 19 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
+        "source": "augsburger-allgemeine.de"
       },
       {
         "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
         "source": "Merkur"
+      },
+      {
+        "title": "Aktuellste amtliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
+        "link": "https://pfaffenhofen-today.de/110101-donau-blaualgen-kelheim-160726",
+        "date": "Thu, 16 Jul 2026 16:41:11 GMT",
+        "source": "Pfaffenhofen Today"
       },
       {
         "title": "Blaualgen in der Donau festgestellt, aber keine Massen - charivari.com",
@@ -93,23 +99,17 @@
         "link": "https://www.tvaktuell.com/embed/723787/04i18jf2gipgo/qrl6s351lu4bl",
         "date": "Thu, 16 Jul 2026 07:14:02 GMT",
         "source": "tvaktuell.com"
-      },
-      {
-        "title": "Toter Hund: Ergebnisse der Wasserproben aus der Donau bei Kelheim liegen vor - Mittelbayerische Zeitung",
-        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/toter-hund-ergebnisse-der-wasserproben-aus-der-donau-bei-kelheim-liegen-vor-21572864",
-        "date": "Thu, 16 Jul 2026 07:00:00 GMT",
-        "source": "Mittelbayerische Zeitung"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
+    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 148,
-    "kmh": 1.9,
+    "discharge": 143,
+    "kmh": 1.8,
     "minutes": 22,
     "halbe": 1.2,
     "level": "mittel",
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-30T11:46:39.470828+00:00",
+    "generated_at": "2026-07-30T17:43:14.281775+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
