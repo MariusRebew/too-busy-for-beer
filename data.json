@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-31T06:15:03.944529+00:00",
-  "generated_label": "31.07.2026, 06:15",
+  "generated_at": "2026-07-31T11:49:42.132785+00:00",
+  "generated_label": "31.07.2026, 11:49",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "31.07.2026, 06:14",
+    "last_checked": "31.07.2026, 11:49",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -71,22 +71,22 @@
         "source": "Nordbayerischer Kurier"
       },
       {
-        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - augsburger-allgemeine.de",
+        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
         "date": "Sun, 19 Jul 2026 07:00:00 GMT",
-        "source": "augsburger-allgemeine.de"
+        "source": "Augsburger Allgemeine"
+      },
+      {
+        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - donaukurier.de",
+        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
+        "date": "Sat, 18 Jul 2026 12:01:38 GMT",
+        "source": "donaukurier.de"
       },
       {
         "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
         "source": "Merkur"
-      },
-      {
-        "title": "Aktuellste amtliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
-        "link": "https://pfaffenhofen-today.de/110101-donau-blaualgen-kelheim-160726",
-        "date": "Thu, 16 Jul 2026 16:41:11 GMT",
-        "source": "Pfaffenhofen Today"
       },
       {
         "title": "Blaualgen in der Donau festgestellt, aber keine Massen - charivari.com",
@@ -104,7 +104,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
+    "text": "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-30T17:43:14.281775+00:00",
+    "generated_at": "2026-07-31T06:15:03.944529+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
