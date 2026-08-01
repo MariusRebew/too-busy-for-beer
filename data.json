@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-07-31T17:44:07.232249+00:00",
-  "generated_label": "31.07.2026, 17:44",
+  "generated_at": "2026-08-01T06:07:56.854848+00:00",
+  "generated_label": "01.08.2026, 06:07",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -5,
+  "days_until": -6,
   "locations": [
     {
       "id": "start",
@@ -61,20 +61,26 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "31.07.2026, 17:44",
+    "last_checked": "01.08.2026, 06:07",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - kurier.de",
+        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - Nordbayerischer Kurier",
         "link": "https://www.kurier.de/inhalt.gesundheitsamt-gibt-entwarnung-keine-blaualgen-in-donau-nach-neuen-tests-festgestellt.ed4e5efb-6b81-40dd-9003-245ce75e7dd4.html",
         "date": "Thu, 23 Jul 2026 13:40:48 GMT",
-        "source": "kurier.de"
+        "source": "Nordbayerischer Kurier"
       },
       {
         "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
         "date": "Sun, 19 Jul 2026 07:00:00 GMT",
         "source": "Augsburger Allgemeine"
+      },
+      {
+        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
+        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
+        "date": "Sat, 18 Jul 2026 12:01:38 GMT",
+        "source": "Donaukurier"
       },
       {
         "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
@@ -93,31 +99,25 @@
         "link": "https://www.charivari.com/blaualgen-in-der-donau-festgestellt-aber-keine-massen-1213491/",
         "date": "Thu, 16 Jul 2026 15:55:57 GMT",
         "source": "charivari.com"
-      },
-      {
-        "title": "Landkreis Kelheim: Blaualgen-Gefahr? Gesundheitsamt warnt vor Baden in Donau - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/embed/723787/04i18jf2gipgo/qrl6s351lu4bl",
-        "date": "Thu, 16 Jul 2026 07:14:02 GMT",
-        "source": "tvaktuell.com"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
+    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 143,
+    "discharge": 139,
     "kmh": 1.8,
-    "minutes": 22,
+    "minutes": 21,
     "halbe": 1.2,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-07-31T11:49:42.132785+00:00",
+    "generated_at": "2026-07-31T17:44:07.232249+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
