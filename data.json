@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-01T11:36:39.691052+00:00",
-  "generated_label": "01.08.2026, 11:36",
+  "generated_at": "2026-08-01T17:30:10.047680+00:00",
+  "generated_label": "01.08.2026, 17:30",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "01.08.2026, 11:36",
+    "last_checked": "01.08.2026, 17:30",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -89,10 +89,10 @@
         "source": "Donaukurier"
       },
       {
-        "title": "Aktuellste amtliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
+        "title": "Aktuellste amtliche Informationen zur Blaualgen-Belastung in der Donau - pfaffenhofen-today.de",
         "link": "https://pfaffenhofen-today.de/110101-donau-blaualgen-kelheim-160726",
         "date": "Thu, 16 Jul 2026 16:41:11 GMT",
-        "source": "Pfaffenhofen Today"
+        "source": "pfaffenhofen-today.de"
       },
       {
         "title": "Blaualgen in der Donau festgestellt, aber keine Massen - charivari.com",
@@ -104,7 +104,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
+    "text": "Ist der Himmel grau und schwer, schmeckt das Bier gleich doppelt sehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-01T06:07:56.854848+00:00",
+    "generated_at": "2026-08-01T11:36:39.691052+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
