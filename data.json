@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-04T11:50:16.582563+00:00",
-  "generated_label": "04.08.2026, 11:50",
+  "generated_at": "2026-08-04T17:45:23.495586+00:00",
+  "generated_label": "04.08.2026, 17:45",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "04.08.2026, 11:50",
+    "last_checked": "04.08.2026, 17:45",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -69,12 +69,6 @@
         "link": "https://www.radioeins.com/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt-1950744/",
         "date": "Thu, 23 Jul 2026 13:36:00 GMT",
         "source": "radioeins.com"
-      },
-      {
-        "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
-        "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "charivari.com"
       },
       {
         "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
@@ -89,22 +83,28 @@
         "source": "Merkur"
       },
       {
-        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
+        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - donaukurier.de",
         "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Donaukurier"
+        "source": "donaukurier.de"
       },
       {
         "title": "Aktuellste amtliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
         "link": "https://pfaffenhofen-today.de/110101-donau-blaualgen-kelheim-160726",
         "date": "Thu, 16 Jul 2026 16:41:11 GMT",
         "source": "Pfaffenhofen Today"
+      },
+      {
+        "title": "Landkreis Kelheim: Blaualgen-Gefahr? Gesundheitsamt warnt vor Baden in Donau - tvaktuell.com",
+        "link": "https://www.tvaktuell.com/embed/723787/04i18jf2gipgo/qrl6s351lu4bl",
+        "date": "Thu, 16 Jul 2026 07:14:02 GMT",
+        "source": "tvaktuell.com"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
+    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-04T06:05:55.473022+00:00",
+    "generated_at": "2026-08-04T11:50:16.582563+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
