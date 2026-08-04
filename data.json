@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-03T17:46:14.271918+00:00",
-  "generated_label": "03.08.2026, 17:46",
+  "generated_at": "2026-08-04T06:05:55.473022+00:00",
+  "generated_label": "04.08.2026, 06:05",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -8,
+  "days_until": -9,
   "locations": [
     {
       "id": "start",
@@ -61,26 +61,32 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "03.08.2026, 17:46",
+    "last_checked": "04.08.2026, 06:05",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - Nordbayerischer Kurier",
-        "link": "https://www.kurier.de/inhalt.gesundheitsamt-gibt-entwarnung-keine-blaualgen-in-donau-nach-neuen-tests-festgestellt.ed4e5efb-6b81-40dd-9003-245ce75e7dd4.html",
-        "date": "Thu, 23 Jul 2026 13:40:48 GMT",
-        "source": "Nordbayerischer Kurier"
+        "title": "Keine Blaualgen in Donau nach neuen Tests festgestellt - radioeins.com",
+        "link": "https://www.radioeins.com/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt-1950744/",
+        "date": "Thu, 23 Jul 2026 13:36:00 GMT",
+        "source": "radioeins.com"
       },
       {
-        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
+        "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
+        "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "charivari.com"
+      },
+      {
+        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - augsburger-allgemeine.de",
         "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
         "date": "Sun, 19 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
+        "source": "augsburger-allgemeine.de"
       },
       {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
+        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - merkur.de",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Merkur"
+        "source": "merkur.de"
       },
       {
         "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
@@ -93,22 +99,16 @@
         "link": "https://pfaffenhofen-today.de/110101-donau-blaualgen-kelheim-160726",
         "date": "Thu, 16 Jul 2026 16:41:11 GMT",
         "source": "Pfaffenhofen Today"
-      },
-      {
-        "title": "Landkreis Kelheim: Blaualgen-Gefahr? Gesundheitsamt warnt vor Baden in Donau - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/embed/723787/04i18jf2gipgo/qrl6s351lu4bl",
-        "date": "Thu, 16 Jul 2026 07:14:02 GMT",
-        "source": "tvaktuell.com"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
+    "text": "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 143,
+    "discharge": 144,
     "kmh": 1.8,
     "minutes": 22,
     "halbe": 1.2,
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-03T12:16:09.865307+00:00",
+    "generated_at": "2026-08-03T17:46:14.271918+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
