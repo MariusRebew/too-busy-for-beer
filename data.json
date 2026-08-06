@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-06T06:06:02.251936+00:00",
-  "generated_label": "06.08.2026, 06:06",
+  "generated_at": "2026-08-06T11:51:48.328305+00:00",
+  "generated_label": "06.08.2026, 11:51",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "06.08.2026, 06:05",
+    "last_checked": "06.08.2026, 11:51",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -83,10 +83,10 @@
         "source": "Augsburger Allgemeine"
       },
       {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - merkur.de",
+        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "merkur.de"
+        "source": "Merkur"
       },
       {
         "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
@@ -104,7 +104,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
+    "text": "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-05T17:44:20.147409+00:00",
+    "generated_at": "2026-08-06T06:06:02.251936+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
