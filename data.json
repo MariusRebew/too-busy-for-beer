@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-07T17:27:20.924936+00:00",
-  "generated_label": "07.08.2026, 17:27",
+  "generated_at": "2026-08-08T05:24:01.380212+00:00",
+  "generated_label": "08.08.2026, 05:24",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -12,
+  "days_until": -13,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "07.08.2026, 17:27",
+    "last_checked": "08.08.2026, 05:23",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -89,10 +89,10 @@
         "source": "Augsburger Allgemeine"
       },
       {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - merkur.de",
+        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "merkur.de"
+        "source": "Merkur"
       },
       {
         "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
@@ -104,20 +104,20 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
+    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 149,
-    "kmh": 1.9,
-    "minutes": 22,
-    "halbe": 1.2,
+    "discharge": 155,
+    "kmh": 2.0,
+    "minutes": 23,
+    "halbe": 1.3,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-07T11:26:18.157800+00:00",
+    "generated_at": "2026-08-07T17:27:20.924936+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
