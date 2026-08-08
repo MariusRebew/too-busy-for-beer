@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-08T05:24:01.380212+00:00",
-  "generated_label": "08.08.2026, 05:24",
+  "generated_at": "2026-08-08T11:17:04.968464+00:00",
+  "generated_label": "08.08.2026, 11:17",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,9 +61,15 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "08.08.2026, 05:23",
+    "last_checked": "08.08.2026, 11:16",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
+      {
+        "title": "Nach Tod von Hund in der Donau: Wie gefährlich sind Blaualgen in Bayerns Gewässern? - Augsburger Allgemeine",
+        "link": "https://www.augsburger-allgemeine.de/bayern/hund-stirbt-nach-bad-in-der-donau-so-gefaehrlich-sind-blaualgen-24-07-114766534",
+        "date": "Fri, 24 Jul 2026 07:00:00 GMT",
+        "source": "Augsburger Allgemeine"
+      },
       {
         "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
         "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
@@ -83,12 +89,6 @@
         "source": "Pfaffenhofen Today"
       },
       {
-        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
-        "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
-        "date": "Sun, 19 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
-      },
-      {
         "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
@@ -104,7 +104,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
+    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-07T17:27:20.924936+00:00",
+    "generated_at": "2026-08-08T05:24:01.380212+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
