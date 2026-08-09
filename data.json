@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-08T17:17:27.703950+00:00",
-  "generated_label": "08.08.2026, 17:17",
+  "generated_at": "2026-08-09T05:29:01.354215+00:00",
+  "generated_label": "09.08.2026, 05:29",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -13,
+  "days_until": -14,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "08.08.2026, 17:17",
+    "last_checked": "09.08.2026, 05:28",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -71,16 +71,16 @@
         "source": "Augsburger Allgemeine"
       },
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
-        "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
-        "date": "Thu, 23 Jul 2026 13:36:38 GMT",
-        "source": "DIE ZEIT"
-      },
-      {
         "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
         "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "charivari.com"
+      },
+      {
+        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
+        "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "DIE ZEIT"
       },
       {
         "title": "Neueste behördliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
@@ -89,35 +89,35 @@
         "source": "Pfaffenhofen Today"
       },
       {
+        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
+        "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
+        "date": "Sun, 19 Jul 2026 07:00:00 GMT",
+        "source": "Augsburger Allgemeine"
+      },
+      {
         "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
         "source": "Merkur"
-      },
-      {
-        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
-        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
-        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Donaukurier"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
+    "text": "Ist der Himmel grau und schwer, schmeckt das Bier gleich doppelt sehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 155,
+    "discharge": 156,
     "kmh": 2.0,
-    "minutes": 23,
+    "minutes": 24,
     "halbe": 1.3,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-08T11:17:04.968464+00:00",
+    "generated_at": "2026-08-08T17:17:27.703950+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
