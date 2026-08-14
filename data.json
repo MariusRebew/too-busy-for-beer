@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-14T05:42:51.838162+00:00",
-  "generated_label": "14.08.2026, 05:42",
+  "generated_at": "2026-08-14T11:24:46.873582+00:00",
+  "generated_label": "14.08.2026, 11:24",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "14.08.2026, 05:42",
+    "last_checked": "14.08.2026, 11:24",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -83,6 +83,12 @@
         "source": "tvaktuell.com"
       },
       {
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "Mittelbayerische Zeitung"
+      },
+      {
         "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
@@ -93,18 +99,12 @@
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
         "source": "Merkur"
-      },
-      {
-        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
-        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
-        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Donaukurier"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Trägt der Käpt'n keine Mütz, hat sein Kommando keinen Nütz.",
+    "text": "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-13T17:29:17.447897+00:00",
+    "generated_at": "2026-08-14T05:42:51.838162+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
