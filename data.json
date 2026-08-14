@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-13T17:29:17.447897+00:00",
-  "generated_label": "13.08.2026, 17:29",
+  "generated_at": "2026-08-14T05:42:51.838162+00:00",
+  "generated_label": "14.08.2026, 05:42",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -18,
+  "days_until": -19,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "13.08.2026, 17:29",
+    "last_checked": "14.08.2026, 05:42",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -95,29 +95,29 @@
         "source": "Merkur"
       },
       {
-        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - donaukurier.de",
+        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
         "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "donaukurier.de"
+        "source": "Donaukurier"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
+    "text": "Trägt der Käpt'n keine Mütz, hat sein Kommando keinen Nütz.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 144,
-    "kmh": 1.9,
-    "minutes": 22,
+    "discharge": 139,
+    "kmh": 1.8,
+    "minutes": 21,
     "halbe": 1.2,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-13T11:25:08.782625+00:00",
+    "generated_at": "2026-08-13T17:29:17.447897+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
