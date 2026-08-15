@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-14T17:29:26.804300+00:00",
-  "generated_label": "14.08.2026, 17:29",
+  "generated_at": "2026-08-15T05:16:13.416910+00:00",
+  "generated_label": "15.08.2026, 05:16",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -19,
+  "days_until": -20,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "14.08.2026, 17:29",
+    "last_checked": "15.08.2026, 05:16",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -71,10 +71,10 @@
         "source": "Augsburger Allgemeine"
       },
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
+        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - zeit.de",
         "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "DIE ZEIT"
+        "source": "zeit.de"
       },
       {
         "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
@@ -104,20 +104,20 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
+    "text": "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 139,
-    "kmh": 1.8,
-    "minutes": 21,
-    "halbe": 1.2,
+    "discharge": 135,
+    "kmh": 1.7,
+    "minutes": 20,
+    "halbe": 1.1,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-14T11:24:46.873582+00:00",
+    "generated_at": "2026-08-14T17:29:26.804300+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
