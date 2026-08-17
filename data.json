@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-16T17:15:19.233035+00:00",
-  "generated_label": "16.08.2026, 17:15",
+  "generated_at": "2026-08-17T05:21:41.280851+00:00",
+  "generated_label": "17.08.2026, 05:21",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -21,
+  "days_until": -22,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "16.08.2026, 17:15",
+    "last_checked": "17.08.2026, 05:21",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -71,16 +71,16 @@
         "source": "Augsburger Allgemeine"
       },
       {
-        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "tvaktuell.com"
-      },
-      {
         "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
         "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "DIE ZEIT"
+      },
+      {
+        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
+        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "tvaktuell.com"
       },
       {
         "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
@@ -95,20 +95,20 @@
         "source": "Augsburger Allgemeine"
       },
       {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - merkur.de",
+        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "merkur.de"
+        "source": "Merkur"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer sein Käppi über Bord verliert, hat als Käpt'n ausregiert.",
+    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 132,
+    "discharge": 131,
     "kmh": 1.7,
     "minutes": 20,
     "halbe": 1.1,
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-16T11:15:41.343955+00:00",
+    "generated_at": "2026-08-16T17:15:19.233035+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
