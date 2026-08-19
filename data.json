@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-19T11:16:14.976170+00:00",
-  "generated_label": "19.08.2026, 11:16",
+  "generated_at": "2026-08-19T17:16:41.259391+00:00",
+  "generated_label": "19.08.2026, 17:16",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "19.08.2026, 11:16",
+    "last_checked": "19.08.2026, 17:16",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -71,10 +71,10 @@
         "source": "tvaktuell.com"
       },
       {
-        "title": "Nach Tod von Hund in der Donau: Wie gefährlich sind Blaualgen in Bayerns Gewässern? - Augsburger Allgemeine",
+        "title": "Nach Tod von Hund in der Donau: Wie gefährlich sind Blaualgen in Bayerns Gewässern? - augsburger-allgemeine.de",
         "link": "https://www.augsburger-allgemeine.de/bayern/hund-stirbt-nach-bad-in-der-donau-so-gefaehrlich-sind-blaualgen-24-07-114766534",
         "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
+        "source": "augsburger-allgemeine.de"
       },
       {
         "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
@@ -95,16 +95,16 @@
         "source": "tvaktuell.com"
       },
       {
-        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
+        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - augsburger-allgemeine.de",
         "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
+        "source": "augsburger-allgemeine.de"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
+    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-19T05:17:18.370894+00:00",
+    "generated_at": "2026-08-19T11:16:14.976170+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
@@ -130,7 +130,7 @@
         "ampel": "gelb"
       }
     },
-    "algae_ampel": "rot",
+    "algae_ampel": "gelb",
     "weather_ampel": "gelb"
   }
 }
