@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-19T17:16:41.259391+00:00",
-  "generated_label": "19.08.2026, 17:16",
+  "generated_at": "2026-08-20T05:18:00.189596+00:00",
+  "generated_label": "20.08.2026, 05:18",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -24,
+  "days_until": -25,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "19.08.2026, 17:16",
+    "last_checked": "20.08.2026, 05:17",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -71,10 +71,10 @@
         "source": "tvaktuell.com"
       },
       {
-        "title": "Nach Tod von Hund in der Donau: Wie gefährlich sind Blaualgen in Bayerns Gewässern? - augsburger-allgemeine.de",
+        "title": "Nach Tod von Hund in der Donau: Wie gefährlich sind Blaualgen in Bayerns Gewässern? - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/bayern/hund-stirbt-nach-bad-in-der-donau-so-gefaehrlich-sind-blaualgen-24-07-114766534",
         "date": "Fri, 24 Jul 2026 07:00:00 GMT",
-        "source": "augsburger-allgemeine.de"
+        "source": "Augsburger Allgemeine"
       },
       {
         "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
@@ -83,41 +83,41 @@
         "source": "DIE ZEIT"
       },
       {
-        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
-        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "Mittelbayerische Zeitung"
-      },
-      {
         "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
         "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "tvaktuell.com"
       },
       {
-        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - augsburger-allgemeine.de",
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "Mittelbayerische Zeitung"
+      },
+      {
+        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "source": "augsburger-allgemeine.de"
+        "source": "Augsburger Allgemeine"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
+    "text": "Ist der Himmel grau und schwer, schmeckt das Bier gleich doppelt sehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 181,
-    "kmh": 2.3,
-    "minutes": 27,
-    "halbe": 1.5,
-    "level": "mittel",
-    "level_emoji": "🟡",
+    "discharge": 215,
+    "kmh": 2.8,
+    "minutes": 32,
+    "halbe": 1.8,
+    "level": "hoch",
+    "level_emoji": "🟢",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-19T11:16:14.976170+00:00",
+    "generated_at": "2026-08-19T17:16:41.259391+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
