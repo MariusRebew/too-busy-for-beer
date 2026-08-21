@@ -1384,5 +1384,19 @@
     },
     "weather_ampel": "gelb",
     "algae_ampel": "gelb"
+  },
+  {
+    "ts": "2026-08-21T05:18:38.873624+00:00",
+    "label": "21.08.2026, 05:18",
+    "tmax": {
+      "start": null,
+      "ziel": null
+    },
+    "rain": {
+      "start": null,
+      "ziel": null
+    },
+    "weather_ampel": "gelb",
+    "algae_ampel": "rot"
   }
 ]

@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-08-20T17:17:08.629825+00:00",
-  "generated_label": "20.08.2026, 17:17",
+  "generated_at": "2026-08-21T05:18:38.873624+00:00",
+  "generated_label": "21.08.2026, 05:18",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -25,
+  "days_until": -26,
   "locations": [
     {
       "id": "start",
@@ -59,9 +59,9 @@
   "weather_ampel_overall": "gelb",
   "algae": {
     "status_label": "Warnung aktiv",
-    "ampel": "gelb",
+    "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "20.08.2026, 17:17",
+    "last_checked": "21.08.2026, 05:18",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -69,12 +69,6 @@
         "link": "https://www.tvaktuell.com/embed/724015/jnjor2tas12q0/xp2kyazscxmmq",
         "date": "Tue, 18 Aug 2026 23:56:39 GMT",
         "source": "tvaktuell.com"
-      },
-      {
-        "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
-        "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "charivari.com"
       },
       {
         "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
@@ -99,25 +93,31 @@
         "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
         "source": "Augsburger Allgemeine"
+      },
+      {
+        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
+        "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
+        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
+        "source": "Merkur"
       }
     ]
   },
-  "trip_ampel": "gelb",
+  "trip_ampel": "rot",
   "spruch": {
-    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
+    "text": "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 215,
-    "kmh": 2.8,
-    "minutes": 32,
-    "halbe": 1.8,
+    "discharge": 200,
+    "kmh": 2.6,
+    "minutes": 30,
+    "halbe": 1.7,
     "level": "hoch",
     "level_emoji": "🟢",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-20T11:16:32.965208+00:00",
+    "generated_at": "2026-08-20T17:17:08.629825+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
