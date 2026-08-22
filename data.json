@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-22T05:16:29.713226+00:00",
-  "generated_label": "22.08.2026, 05:16",
+  "generated_at": "2026-08-22T11:15:47.155549+00:00",
+  "generated_label": "22.08.2026, 11:15",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "22.08.2026, 05:16",
+    "last_checked": "22.08.2026, 11:15",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -95,16 +95,16 @@
         "source": "tvaktuell.com"
       },
       {
-        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - mittelbayerische.de",
         "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "Mittelbayerische Zeitung"
+        "source": "mittelbayerische.de"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
+    "text": "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-21T17:17:03.918238+00:00",
+    "generated_at": "2026-08-22T05:16:29.713226+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
