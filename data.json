@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-27T14:48:20.363574+00:00",
-  "generated_label": "27.08.2026, 14:48",
+  "generated_at": "2026-08-27T20:34:19.745739+00:00",
+  "generated_label": "27.08.2026, 20:34",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "27.08.2026, 14:48",
+    "last_checked": "27.08.2026, 20:34",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -83,10 +83,10 @@
         "source": "DIE ZEIT"
       },
       {
-        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "tvaktuell.com"
+        "source": "Mittelbayerische Zeitung"
       },
       {
         "title": "Informationen des Gesundheitsamtes Kelheim - aktueller Sachstand (2) - Landkreis Kelheim",
@@ -95,16 +95,16 @@
         "source": "Landkreis Kelheim"
       },
       {
-        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
-        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
+        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
+        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "Mittelbayerische Zeitung"
+        "source": "tvaktuell.com"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Ist der Himmel grau und schwer, schmeckt das Bier gleich doppelt sehr.",
+    "text": "Wer sein Käppi über Bord verliert, hat als Käpt'n ausregiert.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-27T07:44:01.801912+00:00",
+    "generated_at": "2026-08-27T14:48:20.363574+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
