@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-28T15:12:46.474680+00:00",
-  "generated_label": "28.08.2026, 15:12",
+  "generated_at": "2026-08-28T20:58:06.046646+00:00",
+  "generated_label": "28.08.2026, 20:58",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,20 +61,20 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "28.08.2026, 15:12",
+    "last_checked": "28.08.2026, 20:57",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
-      {
-        "title": "Kelheim: Warnung vor Baden in der Donau – Blaualgen nachgewiesen - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/embed/724015/jnjor2tas12q0/xp2kyazscxmmq",
-        "date": "Tue, 18 Aug 2026 23:56:39 GMT",
-        "source": "tvaktuell.com"
-      },
       {
         "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
         "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "charivari.com"
+      },
+      {
+        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
+        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "tvaktuell.com"
       },
       {
         "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
@@ -95,16 +95,16 @@
         "source": "Landkreis Kelheim"
       },
       {
-        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "tvaktuell.com"
+        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
+        "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
+        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
+        "source": "Augsburger Allgemeine"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
+    "text": "Trägt der Käpt'n keine Mütz, hat sein Kommando keinen Nütz.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-08-28T07:45:54.290834+00:00",
+    "generated_at": "2026-08-28T15:12:46.474680+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
