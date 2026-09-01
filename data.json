@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-01T11:20:24.660528+00:00",
-  "generated_label": "01.09.2026, 11:20",
+  "generated_at": "2026-09-01T17:19:57.566013+00:00",
+  "generated_label": "01.09.2026, 17:19",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "01.09.2026, 11:20",
+    "last_checked": "01.09.2026, 17:19",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -77,10 +77,10 @@
         "source": "charivari.com"
       },
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
+        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - zeit.de",
         "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "DIE ZEIT"
+        "source": "zeit.de"
       },
       {
         "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
@@ -104,7 +104,7 @@
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Trägt der Käpt'n keine Mütz, hat sein Kommando keinen Nütz.",
+    "text": "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-09-01T05:22:55.740644+00:00",
+    "generated_at": "2026-09-01T11:20:24.660528+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
