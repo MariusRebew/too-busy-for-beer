@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-01T17:19:57.566013+00:00",
-  "generated_label": "01.09.2026, 17:19",
+  "generated_at": "2026-09-02T05:25:19.375316+00:00",
+  "generated_label": "02.09.2026, 05:25",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -37,
+  "days_until": -38,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "01.09.2026, 17:19",
+    "last_checked": "02.09.2026, 05:25",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -77,10 +77,10 @@
         "source": "charivari.com"
       },
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - zeit.de",
+        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
         "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "zeit.de"
+        "source": "DIE ZEIT"
       },
       {
         "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
@@ -104,20 +104,20 @@
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
+    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 200,
-    "kmh": 2.6,
-    "minutes": 30,
-    "halbe": 1.7,
-    "level": "hoch",
-    "level_emoji": "🟢",
+    "discharge": 188,
+    "kmh": 2.4,
+    "minutes": 28,
+    "halbe": 1.6,
+    "level": "mittel",
+    "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-09-01T11:20:24.660528+00:00",
+    "generated_at": "2026-09-01T17:19:57.566013+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
