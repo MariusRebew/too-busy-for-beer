@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-03T05:47:02.498512+00:00",
-  "generated_label": "03.09.2026, 05:47",
+  "generated_at": "2026-09-03T11:20:00.226370+00:00",
+  "generated_label": "03.09.2026, 11:20",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "03.09.2026, 05:46",
+    "last_checked": "03.09.2026, 11:19",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -69,12 +69,6 @@
         "link": "https://www.tvaktuell.com/embed/724015/jnjor2tas12q0/xp2kyazscxmmq",
         "date": "Tue, 18 Aug 2026 23:56:39 GMT",
         "source": "tvaktuell.com"
-      },
-      {
-        "title": "Informationen des Gesundheitsamtes Kelheim - aktueller Sachstand (2) - Landkreis Kelheim",
-        "link": "https://www.landkreis-kelheim.de/landratsamt/meldungen/informationen-des-gesundheitsamtes-kelheim-aktueller-sachstand-2/",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "Landkreis Kelheim"
       },
       {
         "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
@@ -95,6 +89,12 @@
         "source": "Augsburger Allgemeine"
       },
       {
+        "title": "Blaualgen in der Donau? Was fürs Nabada und bei Hunden zu beachten ist - Augsburger Allgemeine",
+        "link": "https://www.augsburger-allgemeine.de/neu-ulm/blaualgen-in-der-donau-was-fuers-nabada-und-bei-hunden-zu-beachten-ist-1-114791738",
+        "date": "Sun, 19 Jul 2026 07:00:00 GMT",
+        "source": "Augsburger Allgemeine"
+      },
+      {
         "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
@@ -104,7 +104,7 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
+    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-09-02T17:19:55.835781+00:00",
+    "generated_at": "2026-09-03T05:47:02.498512+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
@@ -130,7 +130,7 @@
         "ampel": "gelb"
       }
     },
-    "algae_ampel": "gelb",
+    "algae_ampel": "rot",
     "weather_ampel": "gelb"
   }
 }
