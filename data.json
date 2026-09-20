@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T05:20:39.345830+00:00",
-  "generated_label": "20.09.2026, 05:20",
+  "generated_at": "2026-09-20T11:17:54.110673+00:00",
+  "generated_label": "20.09.2026, 11:17",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,9 +61,15 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "20.09.2026, 05:20",
+    "last_checked": "20.09.2026, 11:17",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
+      {
+        "title": "Entwarnung in Kelheim: Keine giftigen Blaualgen in der Donau nach Tests - diebayern.de",
+        "link": "https://www.diebayern.de/gesundheit/keine-blaualgen-in-donau-bei-kelheim-nach-erneuten-untersuchungen-3162274",
+        "date": "Thu, 23 Jul 2026 13:43:32 GMT",
+        "source": "diebayern.de"
+      },
       {
         "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
         "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
@@ -71,16 +77,16 @@
         "source": "charivari.com"
       },
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
+        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - zeit.de",
         "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "DIE ZEIT"
+        "source": "zeit.de"
       },
       {
-        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - mittelbayerische.de",
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
         "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "mittelbayerische.de"
+        "source": "Mittelbayerische Zeitung"
       },
       {
         "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - tvaktuell.com",
@@ -89,22 +95,16 @@
         "source": "tvaktuell.com"
       },
       {
-        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
-        "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
-        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
-      },
-      {
-        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
-        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
-        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Donaukurier"
+        "title": "Neueste behördliche Informationen zur Blaualgen-Belastung in der Donau - Pfaffenhofen Today",
+        "link": "https://pfaffenhofen-today.de/110257-cyanobakterien-donau-230726",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "Pfaffenhofen Today"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
+    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-09-19T17:17:11.009996+00:00",
+    "generated_at": "2026-09-20T05:20:39.345830+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
