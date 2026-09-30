@@ -1,19 +1,5 @@
 [
   {
-    "ts": "2026-08-21T11:16:21.462967+00:00",
-    "label": "21.08.2026, 11:16",
-    "tmax": {
-      "start": null,
-      "ziel": null
-    },
-    "rain": {
-      "start": null,
-      "ziel": null
-    },
-    "weather_ampel": "gelb",
-    "algae_ampel": "gelb"
-  },
-  {
     "ts": "2026-08-21T17:17:03.918238+00:00",
     "label": "21.08.2026, 17:17",
     "tmax": {
@@ -1668,6 +1654,20 @@
   {
     "ts": "2026-09-30T11:21:19.262781+00:00",
     "label": "30.09.2026, 11:21",
+    "tmax": {
+      "start": null,
+      "ziel": null
+    },
+    "rain": {
+      "start": null,
+      "ziel": null
+    },
+    "weather_ampel": "gelb",
+    "algae_ampel": "gelb"
+  },
+  {
+    "ts": "2026-09-30T17:22:37.144122+00:00",
+    "label": "30.09.2026, 17:22",
     "tmax": {
       "start": null,
       "ziel": null
