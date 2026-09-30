@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-09-29T17:21:40.222824+00:00",
-  "generated_label": "29.09.2026, 17:21",
+  "generated_at": "2026-09-30T05:25:15.014905+00:00",
+  "generated_label": "30.09.2026, 05:25",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -65,
+  "days_until": -66,
   "locations": [
     {
       "id": "start",
@@ -61,15 +61,9 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "29.09.2026, 17:21",
+    "last_checked": "30.09.2026, 05:25",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
-      {
-        "title": "Kelheim: Warnung vor Baden in der Donau – Blaualgen nachgewiesen - tvaktuell.com",
-        "link": "https://www.tvaktuell.com/embed/724015/jnjor2tas12q0/xp2kyazscxmmq",
-        "date": "Tue, 18 Aug 2026 23:56:39 GMT",
-        "source": "tvaktuell.com"
-      },
       {
         "title": "Entwarnung in Kelheim: Keine giftigen Blaualgen in der Donau nach Tests - diebayern.de",
         "link": "https://www.diebayern.de/gesundheit/keine-blaualgen-in-donau-bei-kelheim-nach-erneuten-untersuchungen-3162274",
@@ -89,35 +83,41 @@
         "source": "DIE ZEIT"
       },
       {
-        "title": "Informationen des Gesundheitsamtes Kelheim - aktueller Sachstand (2) - Landkreis Kelheim",
+        "title": "Informationen des Gesundheitsamtes Kelheim - aktueller Sachstand (2) - landkreis-kelheim.de",
         "link": "https://www.landkreis-kelheim.de/landratsamt/meldungen/informationen-des-gesundheitsamtes-kelheim-aktueller-sachstand-2/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "Landkreis Kelheim"
+        "source": "landkreis-kelheim.de"
       },
       {
         "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
         "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "Mittelbayerische Zeitung"
+      },
+      {
+        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
+        "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
+        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
+        "source": "Augsburger Allgemeine"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Wer sein Käppi über Bord verliert, hat als Käpt'n ausregiert.",
+    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 123,
-    "kmh": 1.6,
-    "minutes": 19,
-    "halbe": 1.1,
+    "discharge": 120,
+    "kmh": 1.5,
+    "minutes": 18,
+    "halbe": 1.0,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-09-29T11:22:18.947932+00:00",
+    "generated_at": "2026-09-29T17:21:40.222824+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
