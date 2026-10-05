@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-04T18:10:16.386894+00:00",
-  "generated_label": "04.10.2026, 18:10",
+  "generated_at": "2026-10-05T05:35:04.084949+00:00",
+  "generated_label": "05.10.2026, 05:35",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -70,
+  "days_until": -71,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "04.10.2026, 18:10",
+    "last_checked": "05.10.2026, 05:34",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -69,6 +69,12 @@
         "link": "https://www.tvaktuell.com/embed/724015/jnjor2tas12q0/xp2kyazscxmmq",
         "date": "Tue, 18 Aug 2026 23:56:39 GMT",
         "source": "tvaktuell.com"
+      },
+      {
+        "title": "Entwarnung in Kelheim: Keine giftigen Blaualgen in der Donau nach Tests - diebayern.de",
+        "link": "https://www.diebayern.de/gesundheit/keine-blaualgen-in-donau-bei-kelheim-nach-erneuten-untersuchungen-3162274",
+        "date": "Thu, 23 Jul 2026 13:43:32 GMT",
+        "source": "diebayern.de"
       },
       {
         "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
@@ -93,23 +99,17 @@
         "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "Mittelbayerische Zeitung"
-      },
-      {
-        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
-        "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
-        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
+    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 128,
-    "kmh": 1.6,
+    "discharge": 129,
+    "kmh": 1.7,
     "minutes": 19,
     "halbe": 1.1,
     "level": "mittel",
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-10-04T13:07:29.514782+00:00",
+    "generated_at": "2026-10-04T18:10:16.386894+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
