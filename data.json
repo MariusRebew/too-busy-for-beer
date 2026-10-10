@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-09T17:20:56.736289+00:00",
-  "generated_label": "09.10.2026, 17:20",
+  "generated_at": "2026-10-10T05:23:50.661710+00:00",
+  "generated_label": "10.10.2026, 05:23",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -75,
+  "days_until": -76,
   "locations": [
     {
       "id": "start",
@@ -61,9 +61,15 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "09.10.2026, 17:20",
+    "last_checked": "10.10.2026, 05:23",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
+      {
+        "title": "Kelheim: Warnung vor Baden in der Donau – Blaualgen nachgewiesen - tvaktuell.com",
+        "link": "https://www.tvaktuell.com/embed/724015/jnjor2tas12q0/xp2kyazscxmmq",
+        "date": "Tue, 18 Aug 2026 23:56:39 GMT",
+        "source": "tvaktuell.com"
+      },
       {
         "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - Radio Charivari",
         "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
@@ -93,31 +99,25 @@
         "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "TV Aktuell"
-      },
-      {
-        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
-        "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
-        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
-        "source": "Augsburger Allgemeine"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
+    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 132,
-    "kmh": 1.7,
-    "minutes": 20,
-    "halbe": 1.1,
+    "discharge": 160,
+    "kmh": 2.1,
+    "minutes": 24,
+    "halbe": 1.3,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-10-09T11:22:52.133907+00:00",
+    "generated_at": "2026-10-09T17:20:56.736289+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
@@ -130,7 +130,7 @@
         "ampel": "gelb"
       }
     },
-    "algae_ampel": "rot",
+    "algae_ampel": "gelb",
     "weather_ampel": "gelb"
   }
 }
