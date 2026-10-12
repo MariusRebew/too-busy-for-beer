@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T11:26:09.153179+00:00",
-  "generated_label": "12.10.2026, 11:26",
+  "generated_at": "2026-10-12T17:23:44.053295+00:00",
+  "generated_label": "12.10.2026, 17:23",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "12.10.2026, 11:26",
+    "last_checked": "12.10.2026, 17:23",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -95,16 +95,16 @@
         "source": "Mittelbayerische Zeitung"
       },
       {
-        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - TV Aktuell",
-        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "TV Aktuell"
+        "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
+        "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
+        "date": "Mon, 20 Jul 2026 07:00:00 GMT",
+        "source": "Augsburger Allgemeine"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
+    "text": "Ist das Fass an Bord erst leer, lenkt sich auch das Boot nicht mehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-10-12T05:31:16.002680+00:00",
+    "generated_at": "2026-10-12T11:26:09.153179+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
