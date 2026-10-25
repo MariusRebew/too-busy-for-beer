@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-24T17:18:03.600156+00:00",
-  "generated_label": "24.10.2026, 17:18",
+  "generated_at": "2026-10-25T05:21:01.701505+00:00",
+  "generated_label": "25.10.2026, 05:21",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -90,
+  "days_until": -91,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "24.10.2026, 17:17",
+    "last_checked": "25.10.2026, 05:20",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -77,10 +77,10 @@
         "source": "DIE ZEIT"
       },
       {
-        "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - charivari.com",
+        "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - Radio Charivari",
         "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "charivari.com"
+        "source": "Radio Charivari"
       },
       {
         "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
@@ -104,20 +104,20 @@
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
+    "text": "Ist der Himmel grau und schwer, schmeckt das Bier gleich doppelt sehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 170,
-    "kmh": 2.2,
-    "minutes": 26,
-    "halbe": 1.5,
+    "discharge": 158,
+    "kmh": 2.0,
+    "minutes": 24,
+    "halbe": 1.3,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-10-24T11:18:14.895935+00:00",
+    "generated_at": "2026-10-24T17:18:03.600156+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
