@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-31T17:11:27.544800+00:00",
-  "generated_label": "31.10.2026, 17:11",
+  "generated_at": "2026-11-01T05:14:06.344134+00:00",
+  "generated_label": "01.11.2026, 05:14",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -97,
+  "days_until": -98,
   "locations": [
     {
       "id": "start",
@@ -59,9 +59,9 @@
   "weather_ampel_overall": "gelb",
   "algae": {
     "status_label": "Warnung aktiv",
-    "ampel": "rot",
+    "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "31.10.2026, 17:11",
+    "last_checked": "01.11.2026, 05:13",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -69,6 +69,12 @@
         "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "DIE ZEIT"
+      },
+      {
+        "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - Radio Charivari",
+        "link": "https://www.charivari.com/keine-blaualgen-belastung-mehr-in-der-donau-im-kreis-kelheim-1218553/",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "Radio Charivari"
       },
       {
         "title": "Informationen des Gesundheitsamtes Kelheim - aktueller Sachstand (2) - Landkreis Kelheim",
@@ -93,31 +99,25 @@
         "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
         "source": "Donaukurier"
-      },
-      {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
-        "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
-        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Merkur"
       }
     ]
   },
-  "trip_ampel": "rot",
+  "trip_ampel": "gelb",
   "spruch": {
-    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
+    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 168,
-    "kmh": 2.2,
-    "minutes": 25,
-    "halbe": 1.4,
+    "discharge": 159,
+    "kmh": 2.0,
+    "minutes": 24,
+    "halbe": 1.3,
     "level": "mittel",
     "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-10-31T11:11:24.725830+00:00",
+    "generated_at": "2026-10-31T17:11:27.544800+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
