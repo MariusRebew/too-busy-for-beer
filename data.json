@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-07T20:49:03.285953+00:00",
-  "generated_label": "07.11.2026, 20:49",
+  "generated_at": "2026-11-08T11:52:20.268402+00:00",
+  "generated_label": "08.11.2026, 11:52",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -104,
+  "days_until": -105,
   "locations": [
     {
       "id": "start",
@@ -61,14 +61,14 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "07.11.2026, 20:48",
+    "last_checked": "08.11.2026, 11:52",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
-        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
-        "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
+        "title": "Informationen des Gesundheitsamtes Kelheim - aktueller Sachstand (2) - Landkreis Kelheim",
+        "link": "https://www.landkreis-kelheim.de/landratsamt/meldungen/informationen-des-gesundheitsamtes-kelheim-aktueller-sachstand-2/",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "DIE ZEIT"
+        "source": "Landkreis Kelheim"
       },
       {
         "title": "Keine Blaualgen-Belastung mehr in der Donau im Kreis Kelheim - Radio Charivari",
@@ -77,10 +77,10 @@
         "source": "Radio Charivari"
       },
       {
-        "title": "Informationen des Gesundheitsamtes Kelheim - aktueller Sachstand (2) - Landkreis Kelheim",
-        "link": "https://www.landkreis-kelheim.de/landratsamt/meldungen/informationen-des-gesundheitsamtes-kelheim-aktueller-sachstand-2/",
+        "title": "Gesundheitsamt gibt Entwarnung: Keine Blaualgen in Donau nach neuen Tests festgestellt - DIE ZEIT",
+        "link": "https://www.zeit.de/news/2026-07/23/keine-blaualgen-in-donau-nach-neuen-tests-festgestellt",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "Landkreis Kelheim"
+        "source": "DIE ZEIT"
       },
       {
         "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
@@ -104,11 +104,11 @@
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
+    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 120,
+    "discharge": 116,
     "kmh": 1.5,
     "minutes": 18,
     "halbe": 1.0,
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-11-07T11:39:24.397055+00:00",
+    "generated_at": "2026-11-07T20:49:03.285953+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
