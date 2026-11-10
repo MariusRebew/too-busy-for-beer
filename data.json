@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-09T13:47:30.905908+00:00",
-  "generated_label": "09.11.2026, 13:47",
+  "generated_at": "2026-11-10T00:38:41.369319+00:00",
+  "generated_label": "10.11.2026, 00:38",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -106,
+  "days_until": -107,
   "locations": [
     {
       "id": "start",
@@ -59,9 +59,9 @@
   "weather_ampel_overall": "gelb",
   "algae": {
     "status_label": "Warnung aktiv",
-    "ampel": "rot",
+    "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "09.11.2026, 13:47",
+    "last_checked": "10.11.2026, 00:38",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -95,20 +95,20 @@
         "source": "Augsburger Allgemeine"
       },
       {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
-        "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
+        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
+        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Merkur"
+        "source": "Donaukurier"
       }
     ]
   },
-  "trip_ampel": "rot",
+  "trip_ampel": "gelb",
   "spruch": {
-    "text": "Trinkt die Crew schon vor dem Kai, ist der Heimweg einerlei.",
+    "text": "Trägt der Käpt'n keine Mütz, hat sein Kommando keinen Nütz.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 113,
+    "discharge": 114,
     "kmh": 1.5,
     "minutes": 17,
     "halbe": 1.0,
@@ -117,7 +117,7 @@
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-11-08T21:04:51.624543+00:00",
+    "generated_at": "2026-11-09T13:47:30.905908+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
