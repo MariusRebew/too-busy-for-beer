@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-15T21:40:57.917194+00:00",
-  "generated_label": "15.11.2026, 21:40",
+  "generated_at": "2026-11-16T13:35:47.875443+00:00",
+  "generated_label": "16.11.2026, 13:35",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -112,
+  "days_until": -113,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "rot",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "15.11.2026, 21:40",
+    "last_checked": "16.11.2026, 13:35",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -83,12 +83,6 @@
         "source": "Radio Charivari"
       },
       {
-        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
-        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "Mittelbayerische Zeitung"
-      },
-      {
         "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
@@ -99,25 +93,31 @@
         "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
         "source": "Merkur"
+      },
+      {
+        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
+        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
+        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
+        "source": "Donaukurier"
       }
     ]
   },
   "trip_ampel": "rot",
   "spruch": {
-    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
+    "text": "Wer sein Käppi über Bord verliert, hat als Käpt'n ausregiert.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 224,
-    "kmh": 2.9,
-    "minutes": 34,
-    "halbe": 1.9,
+    "discharge": 204,
+    "kmh": 2.6,
+    "minutes": 31,
+    "halbe": 1.7,
     "level": "hoch",
     "level_emoji": "🟢",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-11-15T12:39:28.871248+00:00",
+    "generated_at": "2026-11-15T21:40:57.917194+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
