@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-18T23:20:33.235653+00:00",
-  "generated_label": "18.11.2026, 23:20",
+  "generated_at": "2026-11-19T14:18:26.498279+00:00",
+  "generated_label": "19.11.2026, 14:18",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -115,
+  "days_until": -116,
   "locations": [
     {
       "id": "start",
@@ -59,9 +59,9 @@
   "weather_ampel_overall": "gelb",
   "algae": {
     "status_label": "Warnung aktiv",
-    "ampel": "rot",
+    "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "18.11.2026, 23:20",
+    "last_checked": "19.11.2026, 14:18",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -83,6 +83,12 @@
         "source": "Radio Charivari"
       },
       {
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "Mittelbayerische Zeitung"
+      },
+      {
         "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
@@ -93,31 +99,25 @@
         "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
         "date": "Sat, 18 Jul 2026 07:00:00 GMT",
         "source": "Donaukurier"
-      },
-      {
-        "title": "Gefährlicher Befall breitet sich aus: Hund stirbt nach Bad in Fluss – mehrere Gewässer betroffen - Merkur",
-        "link": "https://www.merkur.de/bayern/hund-stirbt-nach-bad-in-der-donau-zwei-menschen-erkranken-an-blaualgen-94401054.html",
-        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Merkur"
       }
     ]
   },
-  "trip_ampel": "rot",
+  "trip_ampel": "gelb",
   "spruch": {
-    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
+    "text": "Fährt das Boot bei Blitz hinaus, geht der Käpt'n als Toast nach Haus.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 246,
-    "kmh": 3.2,
-    "minutes": 37,
-    "halbe": 2.1,
+    "discharge": 316,
+    "kmh": 4.1,
+    "minutes": 48,
+    "halbe": 2.7,
     "level": "hoch",
     "level_emoji": "🟢",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-11-18T13:53:36.851868+00:00",
+    "generated_at": "2026-11-18T23:20:33.235653+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
