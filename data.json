@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-24T15:43:33.271677+00:00",
-  "generated_label": "24.11.2026, 15:43",
+  "generated_at": "2026-11-25T01:21:09.315835+00:00",
+  "generated_label": "25.11.2026, 01:21",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -121,
+  "days_until": -122,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "24.11.2026, 15:43",
+    "last_checked": "25.11.2026, 01:21",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -104,20 +104,20 @@
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Kommt kein Bier an Bord zur Stund, geht die ganze Crew zugrund.",
+    "text": "Blubbert das Radler leis im Krug, war's Kinderbier – und nie genug.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 290,
-    "kmh": 3.7,
-    "minutes": 44,
-    "halbe": 2.5,
+    "discharge": 251,
+    "kmh": 3.2,
+    "minutes": 38,
+    "halbe": 2.1,
     "level": "hoch",
     "level_emoji": "🟢",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-11-24T03:15:55.993099+00:00",
+    "generated_at": "2026-11-24T15:43:33.271677+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
