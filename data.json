@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-25T15:28:38.949866+00:00",
-  "generated_label": "25.11.2026, 15:28",
+  "generated_at": "2026-11-26T00:56:38.766226+00:00",
+  "generated_label": "26.11.2026, 00:56",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -122,
+  "days_until": -123,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "25.11.2026, 15:28",
+    "last_checked": "26.11.2026, 00:56",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -83,16 +83,16 @@
         "source": "Radio Charivari"
       },
       {
-        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - TV Aktuell",
-        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
-        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-        "source": "TV Aktuell"
-      },
-      {
         "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
         "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
         "date": "Thu, 23 Jul 2026 07:00:00 GMT",
         "source": "Mittelbayerische Zeitung"
+      },
+      {
+        "title": "Kelheim: Kein gehäuftes Blaualgenaufkommen in der Donau - TV Aktuell",
+        "link": "https://www.tvaktuell.com/mediathek/video/kelheim-kein-gehaeuftes-blaualgenaufkommen-in-der-donau/",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "TV Aktuell"
       },
       {
         "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
@@ -104,20 +104,20 @@
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Zeigt die Ampel oben rot, bleib an Land – sonst droht der Tod.",
+    "text": "Wer die Karte nicht mehr liest, weiß auch bald nicht, wo er ist.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 251,
-    "kmh": 3.2,
-    "minutes": 38,
-    "halbe": 2.1,
+    "discharge": 220,
+    "kmh": 2.8,
+    "minutes": 33,
+    "halbe": 1.9,
     "level": "hoch",
     "level_emoji": "🟢",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-11-25T01:21:09.315835+00:00",
+    "generated_at": "2026-11-25T15:28:38.949866+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
