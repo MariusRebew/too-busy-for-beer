@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-11-26T14:59:52.187676+00:00",
-  "generated_label": "26.11.2026, 14:59",
+  "generated_at": "2026-11-27T00:59:13.723904+00:00",
+  "generated_label": "27.11.2026, 00:59",
   "title": "Too busy for Beer – Boots-Wächter",
   "trip_date": "2026-07-26",
   "trip_date_label": "26.07.2026",
   "trip_start_time": "10:00",
-  "days_until": -123,
+  "days_until": -124,
   "locations": [
     {
       "id": "start",
@@ -61,7 +61,7 @@
     "status_label": "Warnung aktiv",
     "ampel": "gelb",
     "summary": "Es wird weiterhin vor dem Baden in der Donau abgeraten (Blaualgen/Cyanobakterien). Nicht schwimmen, nichts schlucken, Hände nicht im Flusswasser abspülen.",
-    "last_checked": "26.11.2026, 14:59",
+    "last_checked": "27.11.2026, 00:59",
     "official_url": "https://www.landkreis-kelheim.de/landratsamt/meldungen/",
     "news": [
       {
@@ -89,35 +89,35 @@
         "source": "TV Aktuell"
       },
       {
+        "title": "Gesundheitsamt Kelheim gibt indirekt Entwarnung: Keine Massen an Blaualgen in der Donau - Mittelbayerische Zeitung",
+        "link": "https://www.mittelbayerische.de/lokales/landkreis-kelheim/gesundheitsamt-kelheim-gibt-indirekt-entwarnung-keine-massen-an-blaualgen-in-der-donau-21622541",
+        "date": "Thu, 23 Jul 2026 07:00:00 GMT",
+        "source": "Mittelbayerische Zeitung"
+      },
+      {
         "title": "Blaualgen in der Donau: Badestelle in Neuburg aktuell nicht betroffen - Augsburger Allgemeine",
         "link": "https://www.augsburger-allgemeine.de/neuburg/blaualgen-in-der-donau-neuburger-badestelle-laut-behoerden-sicher-114809276",
         "date": "Mon, 20 Jul 2026 07:00:00 GMT",
         "source": "Augsburger Allgemeine"
-      },
-      {
-        "title": "Nach Blaualgen-Vorfall in Kelheim: Gesundheitsamt informiert über Neuburger Badestelle - Donaukurier",
-        "link": "https://www.donaukurier.de/lokales/landkreis-neuburg-schrobenhausen/gesundheitsamt-beobachtet-neuburger-badestelle-21580076",
-        "date": "Sat, 18 Jul 2026 07:00:00 GMT",
-        "source": "Donaukurier"
       }
     ]
   },
   "trip_ampel": "gelb",
   "spruch": {
-    "text": "Wer am Steuer gähnt und schwankt, hat dem Fass zu tief gedankt.",
+    "text": "Ist der Himmel grau und schwer, schmeckt das Bier gleich doppelt sehr.",
     "by": "Käpt'n Flo · Weisheit des Tages"
   },
   "flow": {
-    "discharge": 220,
-    "kmh": 2.8,
-    "minutes": 33,
-    "halbe": 1.9,
-    "level": "hoch",
-    "level_emoji": "🟢",
+    "discharge": 193,
+    "kmh": 2.5,
+    "minutes": 29,
+    "halbe": 1.6,
+    "level": "mittel",
+    "level_emoji": "🟡",
     "distance_km": 14
   },
   "previous": {
-    "generated_at": "2026-11-26T00:56:38.766226+00:00",
+    "generated_at": "2026-11-26T14:59:52.187676+00:00",
     "locations": {
       "start": {
         "tmax_median": null,
